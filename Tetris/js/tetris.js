@@ -158,7 +158,7 @@ function keyPress( key ) {
             break;
     }
 }
-function keyPress( key ) {
+function keyPress2( key ) {
     switch ( key ) {
         case 'left2':
             if ( valid( -1 ) ) {

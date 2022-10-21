@@ -6,7 +6,7 @@ document.body.onkeydown = function( e ) {
         87: 'rotate2',
     };
     if ( typeof keys2[ e.keyCode ] != 'undefined' ) {
-        keyPress( keys2[ e.keyCode ] );
+        keyPress2( keys2[ e.keyCode ] );
         render();
     }
 };
