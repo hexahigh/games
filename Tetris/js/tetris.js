@@ -158,33 +158,6 @@ function keyPress( key ) {
             break;
     }
 }
-function keyPress2( key ) {
-    switch ( key ) {
-        case 'left2':
-            if ( valid( -1 ) ) {
-                --currentX;
-            }
-            break;
-        case 'right2':
-            if ( valid( 1 ) ) {
-                ++currentX;
-            }
-            break;
-        case 'down2':
-            if ( valid( 0, 1 ) ) {
-                ++currentY;
-            }
-            break;
-        case 'rotate2':
-            var rotated = rotate( current );
-            if ( valid( 0, 0, rotated ) ) {
-                current = rotated;
-
-            }
-            tick();
-            break;
-    }
-}
 
 // checks if the resulting position of current shape will be feasible
 function valid( offsetX, offsetY, newCurrent ) {
