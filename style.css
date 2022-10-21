@@ -1,1 +1,15 @@
 .floatRight{float:right;margin-left:20px}
+
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+<div id="content">
+    <img src="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder.png" class="ribbon"/>
+    <div>some text...</div>
+</div>
