@@ -7,10 +7,10 @@ document.body.onkeydown = function( e ) {
         32: 'drop'
     };
     var keys = {
-        68: 'left',
-        65: 'right',
-        83: 'down',
-        87: 'rotate',
+        65: 'left2',
+        68: 'right2',
+        83: 'down2',
+        87: 'rotate2',
     };
     if ( typeof keys[ e.keyCode ] != 'undefined' ) {
         keyPress( keys[ e.keyCode ] );
