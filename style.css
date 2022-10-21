@@ -1,8 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+* {
+  box-sizing: border-box;
+}
+
 #app {
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-image: linear-gradient(blue, cyan);
-  }
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(blue, cyan);
+}
