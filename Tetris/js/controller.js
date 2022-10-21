@@ -6,7 +6,7 @@ document.body.onkeydown = function( e ) {
         38: 'rotate',
         32: 'drop'
     };
-    var keys = {
+    var keys2 = {
         65: 'left2',
         68: 'right2',
         83: 'down2',
