@@ -44,7 +44,7 @@ function newShape() {
             }
         }
     }
-    
+
     // new shape starts to move
     freezed = false;
     // position where the shape will evolve
