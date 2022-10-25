@@ -20,10 +20,6 @@
   
   <transition v-on:enter="enterWin" v-bind:css="false">
     <win v-show="winner" :click-handler="restart"></win>
-    <audio autoplay>
-      <source src="/files/sfx/Its just a burning memory.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio> 
   </transition>
 </div>
 
