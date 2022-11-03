@@ -20,7 +20,7 @@ async function init() {
     if(enableImgReplace){
         main();
         // this will run main every three seconds to catch any images that are loaded after the initial page load (for scrolling feeds)
-        setInterval(main, 3000);
+        setInterval(main, 1000);
     }    
 }
 // this is the entry point; init grabs the settings data from storage and then calls main()
