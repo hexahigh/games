@@ -16,6 +16,9 @@ function saveImageOptions() {
         case "rubberDucks":
             imgLib = rubberDuckImages;
             break;
+        case "Ajax":
+            imgLib = AjaxImages;
+            break;
         case "animeGirls":
             imgLib = animeGirlImages;
             break;
