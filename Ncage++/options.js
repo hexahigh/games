@@ -22,6 +22,9 @@ function saveImageOptions() {
         case "animeGirls":
             imgLib = animeGirlImages;
             break;
+        case "Mogus":
+            imgLib = Mogus;
+            break;
         case "censored":
             imgLib = "censored";
             break;
