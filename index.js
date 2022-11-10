@@ -1,1 +1,1 @@
-new cursoreffects.rainbowCursor({length: 3, colors: ['red', 'cyan', 'green', 'purple', 'pink', 'yellow', '', 'blue'], size: 4});
+new cursoreffects.rainbowCursor({length: 3, colors: ['red', 'green', 'purple', 'pink', 'yellow', 'blue'], size: 4});
