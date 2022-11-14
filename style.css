@@ -15,51 +15,7 @@
     background-image: linear-gradient(cyan, blue);
     }
 
-    @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
-    * {
-      box-sizing: border-box;
-    }
-    
-    #app {
-      display: flex;
-      overflow: visible;
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      background-image: linear-gradient(blue, cyan);
-    }
-    
-    .butter-cheese-eggs {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      flex-wrap: wrap;
-      width: 300px;
-      height: 300px;
-    }
-    .butter-cheese-eggs > div {
-      flex: 0 0 auto;
-      width: 100px;
-      height: 100px;
-    }
-    .butter-cheese-eggs > div .block {
-      cursor: pointer;
-      display: table-cell;
-      width: 100px;
-      height: 100px;
-      font: bold 50px/0 "Comic Sans MS", sans-serif;
-      vertical-align: middle;
-      text-align: center;
-    }
-    .butter-cheese-eggs > div:nth-child(1), .butter-cheese-eggs > div:nth-child(2), .butter-cheese-eggs > div:nth-child(3), .butter-cheese-eggs > div:nth-child(4), .butter-cheese-eggs > div:nth-child(5), .butter-cheese-eggs > div:nth-child(6) {
-      border-bottom: 3px solid #fff;
-    }
-    .butter-cheese-eggs > div:nth-child(2), .butter-cheese-eggs > div:nth-child(5), .butter-cheese-eggs > div:nth-child(8) {
-      border-left: 3px solid #fff;
-      border-right: 3px solid #fff;
-    }
-    .butter-cheese-eggs span {
-      display: block;
-    }
+.back {
+  background: rgb(2,0,36);
+  background: linear-gradient(133deg, rgba(2,0,36,1) 0%, rgba(43,43,173,1) 35%, rgba(0,212,255,1) 100%);
+}
