@@ -9,3 +9,7 @@
     h1 {
         font-size: 2em;
       }
+
+      #grad {
+        background-image: linear-gradient(cyan, blue);
+      }
