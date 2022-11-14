@@ -22,7 +22,7 @@
     
     #app {
       display: flex;
-      overflow: hidden;
+      overflow: visible;
       position: relative;
       width: 100vw;
       height: 100vh;
