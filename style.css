@@ -10,6 +10,6 @@
         font-size: 2em;
       }
 
-      #grad {
-        background-image: linear-gradient(cyan, blue);
+#grad {
+    background-image: linear-gradient(cyan, blue);
       }
