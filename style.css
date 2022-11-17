@@ -16,6 +16,8 @@
     }
 
 .back {
+  height: 100%;
+  width: 100%;
   background: rgb(0,0,191);
   background: linear-gradient(225deg, rgba(0,0,191,1) 35%, rgba(0,212,255,1) 100%);
 }
