@@ -21,3 +21,13 @@
   background: rgb(0,0,191);
   background: linear-gradient(225deg, rgba(0,0,191,1) 35%, rgba(0,212,255,1) 100%);
 }
+
+#footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  background: grey;
+ }
