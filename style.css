@@ -32,7 +32,7 @@
 }
 .animated-back {
   background: linear-gradient(302deg,deepskyblue,darkviolet,blue);
-  background-size: 180% 180%;
+  background-size: 300% 300%;
   animation: gradient-animation 15s ease infinite;
 }
 
