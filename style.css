@@ -28,3 +28,7 @@
   background: rgb(0,11,255);
   background: linear-gradient(225deg, rgba(0,11,255,1) 100%, rgba(0,11,255,1) 100%);
 }
+
+.donationcompact {
+  line-height: 1em;
+}
