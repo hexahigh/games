@@ -33,10 +33,13 @@
 
 
 .footer {
-  height: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
-  background: rgb(0,11,255);
-  background: linear-gradient(225deg, rgba(0,11,255,1) 100%, rgba(0,11,255,1) 100%);
+  background-color: blue;
+  color: white;
+  text-align: center;
 }
 
 .donationcompact {
