@@ -39,5 +39,5 @@ jobs:
         commit-message: "Automated sitemap update."
         author: Vincent A. Cicirello <cicirello@users.noreply.github.com>
         committer: Vincent A. Cicirello <cicirello@users.noreply.github.com>
-        branch: create-pull-request/sitemap
+        branch: main
         delete-branch: true
