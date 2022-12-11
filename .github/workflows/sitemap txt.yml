@@ -22,7 +22,7 @@ jobs:
         base-url-path: https://boof.eu.org/
         path-to-root: .
         sitemap-format: txt
-        additional-extensions: doc docx ppt pptx txt md exe lua py zip rar *
+        additional-extensions: doc docx ppt pptx txt md exe lua py zip rar mp3 png wav jpg jpeg bin css js json php
 
     - name: Output stats
       run: |
