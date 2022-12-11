@@ -3,6 +3,7 @@ https://boof.eu.org/404.html
 https://boof.eu.org/dl.py
 https://boof.eu.org/herremann.html
 https://boof.eu.org/radio.html
+https://boof.eu.org/sitemap.txt
 https://boof.eu.org/Bad apple/
 https://boof.eu.org/Games/
 https://boof.eu.org/Kirby/
