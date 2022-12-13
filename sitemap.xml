@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://boof.eu.org/</loc>
-<lastmod>2022-12-08T09:59:05+01:00</lastmod>
+<lastmod>2022-12-13T14:00:05+01:00</lastmod>
 </url>
 <url>
 <loc>https://boof.eu.org/404.html</loc>
@@ -29,8 +29,8 @@
 <lastmod>2022-10-25T14:07:52+02:00</lastmod>
 </url>
 <url>
-<loc>https://boof.eu.org/tools/</loc>
-<lastmod>2022-11-28T14:04:25+01:00</lastmod>
+<loc>https://boof.eu.org/Software/</loc>
+<lastmod>2022-12-13T14:00:05+01:00</lastmod>
 </url>
 <url>
 <loc>https://boof.eu.org/Games/2048/</loc>
@@ -171,6 +171,10 @@
 <url>
 <loc>https://boof.eu.org/Games/full sphere path tracer/</loc>
 <lastmod>2022-11-14T10:40:10+01:00</lastmod>
+</url>
+<url>
+<loc>https://boof.eu.org/Software/Calculator-inator/</loc>
+<lastmod>2022-12-13T14:00:05+01:00</lastmod>
 </url>
 <url>
 <loc>https://boof.eu.org/tools/Btorrent/</loc>
