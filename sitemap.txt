@@ -13,7 +13,7 @@ https://boof.eu.org/style.css
 https://boof.eu.org/Bad apple/
 https://boof.eu.org/Games/
 https://boof.eu.org/Kirby/
-https://boof.eu.org/tools/
+https://boof.eu.org/Software/
 https://boof.eu.org/tools/autotor.sh
 https://boof.eu.org/tools/bandwidthuser.sh
 https://boof.eu.org/tools/new image loader.lua
@@ -129,6 +129,9 @@ https://boof.eu.org/Games/Zombie Apocalypse/
 https://boof.eu.org/Games/Zombie Apocalypse/script.js
 https://boof.eu.org/Games/full sphere path tracer/
 https://boof.eu.org/Games/full sphere path tracer/script.js
+https://boof.eu.org/Software/Calculator-inator/
+https://boof.eu.org/Software/Calculator-inator/favicon-ci.png
+https://boof.eu.org/Software/Calculator-inator/style.css
 https://boof.eu.org/files/img/ad.png
 https://boof.eu.org/files/img/qm5solke 2.png
 https://boof.eu.org/files/img/qm5solke.png
