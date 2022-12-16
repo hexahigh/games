@@ -12,6 +12,7 @@
       </style>
       <script>
             let speed = 1000
+            setInterval(addKrydder, speed);
 
             function changespeed() {
               speed -= 100;
@@ -47,7 +48,7 @@
         </script>
   </head>
   <body>
-    <button onclick="changespeed()">FASTER</button>
+    <button onclick="changespeed()" style="font-size: 20px; padding: 10px 20px">Nam nam Krydder :D</button>
     <div id="krydder-container"></div>
   </body>
 </html>
