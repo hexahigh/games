@@ -11,6 +11,13 @@
         }
       </style>
       <script>
+            let speed = 1000
+            setInterval(addKrydder, speed);
+
+            function changespeed() {
+              speed -= 100;
+              setInterval(addKrydder, speed);
+            }
             function addKrydder() {
               // Create a new element
               var krydderText = document.createElement("div");
@@ -38,11 +45,10 @@
                 krydderText.remove();
               }, Math.random() * 10000);
             }
-          
-            setInterval(addKrydder, 1000);
         </script>
   </head>
   <body>
+    <button onclick="changespeed()" style="font-size: 20px; padding: 10px 20px">Nam nam Krydder :D</button>
     <div id="krydder-container"></div>
   </body>
 </html>
