@@ -15,6 +15,7 @@
 
             function changespeed() {
               speed -= 100;
+              setInterval(addKrydder, speed);
             }
             function addKrydder() {
               // Create a new element
@@ -43,8 +44,6 @@
                 krydderText.remove();
               }, Math.random() * 10000);
             }
-          
-            setInterval(addKrydder, speed);
         </script>
   </head>
   <body>
