@@ -16,6 +16,9 @@
               var krydderText = document.createElement("div");
               krydderText.innerHTML = "krydder";
               krydderText.className = "krydder-text";
+
+              var audio = new Audio('krydder.mp3');
+              audio.play();
           
               // Set a random font size for the text
               var fontSize = Math.floor(Math.random() * 50) + 10;
@@ -38,7 +41,6 @@
           
             setInterval(addKrydder, 1000);
         </script>
-        <script src="dlhermann.js"></script>
   </head>
   <body>
     <div id="krydder-container"></div>
