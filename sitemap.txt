@@ -87,6 +87,8 @@ https://boof.eu.org/Games/Jump-King/sketch-LAPTOP-4GTCNHGO.js
 https://boof.eu.org/Games/Jump-King/sketch.js
 https://boof.eu.org/Games/Knotted/
 https://boof.eu.org/Games/Knotted/script.js
+https://boof.eu.org/Games/Krydder/
+https://boof.eu.org/Games/Krydder/dlhermann.js
 https://boof.eu.org/Games/Megapolis/
 https://boof.eu.org/Games/Megapolis/script.js
 https://boof.eu.org/Games/Minecraft classic/
