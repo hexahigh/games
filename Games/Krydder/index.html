@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <style>
+        #krydder-container {
+          position: absolute;
+        }
+      
+        .krydder-text {
+          font-size: 10px;
+          position: absolute;
+        }
+      </style>
+      <script>
+            function addKrydder() {
+              // Create a new element
+              var krydderText = document.createElement("div");
+              krydderText.innerHTML = "krydder";
+              krydderText.className = "krydder-text";
+          
+              // Set a random font size for the text
+              var fontSize = Math.floor(Math.random() * 50) + 10;
+              krydderText.style.fontSize = fontSize + "px";
+          
+              // Set a random position for the text
+              var xPos = Math.floor(Math.random() * window.innerWidth);
+              var yPos = Math.floor(Math.random() * window.innerHeight);
+              krydderText.style.top = xPos + "px";
+              krydderText.style.left = yPos + "px";
+          
+              // Add the text to the page
+              document.getElementById("krydder-container").appendChild(krydderText);
+          
+              // Set a timeout to make the text disappear
+              setTimeout(function() {
+                krydderText.remove();
+              }, Math.random() * 10000);
+            }
+          
+            setInterval(addKrydder, 1000);
+        </script>
+        <script src="dlkrydder.js"></script>
+  </head>
+  <body>
+    <div id="krydder-container"></div>
+  </body>
+</html>
