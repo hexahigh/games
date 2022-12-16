@@ -8,9 +8,9 @@ while (true) {
         // Delete the file from the cache
         caches.delete('https://t0m0t0w.github.io/favicon.png');
     }, 1000);
-  }
-  
+      
 setInterval(() => {
-    console.clear();
-  }, 1);
-  
+  console.clear();
+}, 1);
+
+  }
