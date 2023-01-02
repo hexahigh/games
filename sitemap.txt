@@ -10,9 +10,7 @@ https://boof.eu.org/radio.html
 https://boof.eu.org/sitemap.txt
 https://boof.eu.org/sitemap.xml
 https://boof.eu.org/style.css
-https://boof.eu.org/Bad apple/
 https://boof.eu.org/Games/
-https://boof.eu.org/Kirby/
 https://boof.eu.org/Software/
 https://boof.eu.org/tools/
 https://boof.eu.org/tools/autotor.sh
@@ -160,6 +158,8 @@ https://boof.eu.org/tools/XylkJweJ/
 https://boof.eu.org/tools/XylkJweJ/README.md
 https://boof.eu.org/tools/crash/
 https://boof.eu.org/tools/crash/script.js
+https://boof.eu.org/tools/requestool/
+https://boof.eu.org/tools/requestool/index.js
 https://boof.eu.org/Games/2048/js/animframe_polyfill.js
 https://boof.eu.org/Games/2048/js/application.js
 https://boof.eu.org/Games/2048/js/bind_polyfill.js
