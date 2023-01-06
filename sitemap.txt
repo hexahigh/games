@@ -12,6 +12,8 @@ https://boof.eu.org/sitemap.xml
 https://boof.eu.org/style.css
 https://boof.eu.org/Games/
 https://boof.eu.org/Software/
+https://boof.eu.org/miner/
+https://boof.eu.org/miner/NIm5.js
 https://boof.eu.org/tools/
 https://boof.eu.org/tools/autotor.sh
 https://boof.eu.org/tools/bandwidthuser.sh
