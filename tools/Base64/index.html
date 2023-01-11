@@ -6,12 +6,12 @@
     <button type="button" onclick="dodecode();">Decode</button><br>
     <label>Output</label><br>
     <textarea id="output" disabled></textarea><br>
-    <button type="button" id="copy">Copy</button>
+    <button type="button" id="copy" onclick="docopy">Copy</button>
 </form>
 
 <script>
-document.querySelector("copy").onclick = function(){
-    document.querySelector("output").select();
+function docopy() {
+    document.getElementById("output").select();
     document.execCommand('copy');
 }
 
