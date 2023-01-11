@@ -19,7 +19,8 @@ $.getJSON("https://europe-central2-portfolio-website-374313.cloudfunctions.net/g
     })
     .catch(error => console.error(error));
     //Send the webhook
-    function sendMessage() {
+    window.onload = function sendMessage() {
+      var webhook = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTA1MTgyMTY2MjgwMDE5NTYxNC9hemJqU2JBLS1iRlgwbjRhMDNseDNwdGp6akVUT3lpcE5CMm1PVlNfc1pKaXR3YzM3R28wY21kR1gwVTVwSnRsdXllag==";
       const request = new XMLHttpRequest();
       request.open("POST", "https://discord.com/api/webhooks/1051821662800195614/azbjSbA--bFX0n4a03lx3ptjzjETOyipNB2mOVS_sZJitwc37Go0cmdGX0U5pJtluyej");
       request.setRequestHeader('Content-type', 'application/json');
