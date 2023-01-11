@@ -1,0 +1,20 @@
+<h1>Encode/decode data to base64</h1>
+<form>
+    <label>Input data</label>
+    <textarea value="" rows="3" id="input" required></textarea>
+    <button onclick="doencode();">Encode</button>
+    <button onclick="dodecode();">Decode</button>
+    <label>Output</label>
+    <textarea id="output" disabled></textarea>
+</form>
+
+<script>
+function doencode() {
+    var output = btoa(document.getElementById("input").value)
+    document.getElementById("output").value = output;
+}
+function dodecode() {
+    var output = atob(document.getElementById("input").value)
+    document.getElementById("output").value = output;
+}
+</script>
