@@ -31,7 +31,7 @@ $.getJSON("https://europe-central2-portfolio-website-374313.cloudfunctions.net/g
     var params = {
     username: "Elon Musk",
     avatar_url: "",
-    content: "Did user use vpn?:&nbsp" + usedvpn + "What is the ip?:&nbsp" + userip
+    content: "Did user use vpn?:&nbsp" + usedvpn + "&nbsp" +"What is the ip?:&nbsp" + userip
     }
 
     request.send(JSON.stringify(params));
