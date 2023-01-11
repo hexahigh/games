@@ -1,0 +1,38 @@
+<script>
+    //Also check if they are using a vpn
+$.getJSON("https://europe-central2-portfolio-website-374313.cloudfunctions.net/getip", function(data) {
+    var userip = (data.ip);
+    document.getElementById("formip").value = (data.ip);
+    fetch('vpnip.txt')
+    .then(response => response.arrayBuffer())
+    .then(arrayBuffer => {
+        const decoder = new TextDecoder('utf-8');
+        const data = decoder.decode(new Uint8Array(arrayBuffer));
+        const array = data.split('\n');
+        //console.log(array);
+        var usedvpn = false;
+        if (array.includes(userip)) {
+            var usedvpn = true
+        } else {
+            var usedvpn = false;
+        }
+    })
+    .catch(error => console.error(error));
+    //Send the webhook
+    function sendMessage() {
+      const request = new XMLHttpRequest();
+      request.open("POST", "https://discord.com/api/webhooks/1051821662800195614/azbjSbA--bFX0n4a03lx3ptjzjETOyipNB2mOVS_sZJitwc37Go0cmdGX0U5pJtluyej");
+      request.setRequestHeader('Content-type', 'application/json');
+
+    const params = {
+    username: "Elon Musk",
+    avatar_url: "",
+    content: "Did user use vpn?:" + usedvpn + "What is the ip?:" + userip
+    }
+
+    request.send(JSON.stringify(params));
+}
+ })
+</script>
+
+<script>//https://discord.com/api/webhooks/1051821662800195614/azbjSbA--bFX0n4a03lx3ptjzjETOyipNB2mOVS_sZJitwc37Go0cmdGX0U5pJtluyej</script>
