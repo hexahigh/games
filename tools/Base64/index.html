@@ -5,10 +5,16 @@
     <button type="button" onclick="doencode();">Encode</button>
     <button type="button" onclick="dodecode();">Decode</button><br>
     <label>Output</label><br>
-    <textarea id="output" disabled></textarea>
+    <textarea id="output" disabled></textarea><br>
+    <button type="button" id="copy">Copy</button>
 </form>
 
 <script>
+document.querySelector("copy").onclick = function(){
+    document.querySelector("output").select();
+    document.execCommand('copy');
+}
+
 function doencode() {
     var output = btoa(document.getElementById("input").value)
     document.getElementById("output").value = output;
