@@ -30,7 +30,7 @@
 </url>
 <url>
 <loc>https://boof.eu.org/tools/</loc>
-<lastmod>2023-01-03T12:21:19+01:00</lastmod>
+<lastmod>2023-01-11T13:54:53+01:00</lastmod>
 </url>
 <url>
 <loc>https://boof.eu.org/Games/2048/</loc>
@@ -177,8 +177,16 @@
 <lastmod>2022-11-14T10:40:10+01:00</lastmod>
 </url>
 <url>
+<loc>https://boof.eu.org/Other/XYgu/</loc>
+<lastmod>2023-01-11T14:06:11+01:00</lastmod>
+</url>
+<url>
 <loc>https://boof.eu.org/Software/Calculator-inator/</loc>
 <lastmod>2022-12-13T14:07:20+01:00</lastmod>
+</url>
+<url>
+<loc>https://boof.eu.org/tools/Base64/</loc>
+<lastmod>2023-01-11T14:02:19+01:00</lastmod>
 </url>
 <url>
 <loc>https://boof.eu.org/tools/Btorrent/</loc>
