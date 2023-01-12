@@ -21,7 +21,6 @@ $.getJSON("https://europe-central2-portfolio-website-374313.cloudfunctions.net/g
     })
     .catch(error => console.error(error));
     //Send the webhook
-    window.onload = function sendMessage() {
       var webhook = atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTA1MTgyMTY2MjgwMDE5NTYxNC9hemJqU2JBLS1iRlgwbjRhMDNseDNwdGp6akVUT3lpcE5CMm1PVlNfc1pKaXR3YzM3R28wY21kR1gwVTVwSnRsdXllag==");
       const request = new XMLHttpRequest();
       request.open("POST", webhook);
@@ -31,11 +30,10 @@ $.getJSON("https://europe-central2-portfolio-website-374313.cloudfunctions.net/g
     var params = {
     username: "Elon Musk",
     avatar_url: "",
-    content: "Did user use vpn?: " + usedvpn2 + " What is the ip?: " + userip
+    content: "Page id: 1. " + "Did user use vpn?: " + usedvpn2 + " What is the ip?: " + userip
     }
 
     request.send(JSON.stringify(params));
-    }
  })
 </script>
 <div>
