@@ -11,7 +11,13 @@
         }
       </style>
       <script>
+        function delay(milliseconds){
+          return new Promise(resolve => {
+            setTimeout(resolve, milliseconds);
+          });
+        }
         while(true) {
+          await delay(1000);
           fetch('https://t0m0t0w.github.io')
         }
             let speed = 1000
