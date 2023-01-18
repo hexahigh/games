@@ -16,14 +16,6 @@
             setTimeout(resolve, milliseconds);
           });
         }
-        var timesdown = 0
-        window.onload = async function startdown(){
-          while(true) {
-            await delay(10);
-            fetch('https://t0m0t0w.github.io/favicon.png', {cache: "no-store"})
-            timesdown += "1"
-          }
-        }
             let speed = 1000
             setInterval(addKrydder, speed);
 
