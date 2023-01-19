@@ -18,7 +18,7 @@
 </url>
 <url>
 <loc>https://boof.eu.org/Games/</loc>
-<lastmod>2023-01-02T14:39:26+01:00</lastmod>
+<lastmod>2023-01-17T10:20:31+01:00</lastmod>
 </url>
 <url>
 <loc>https://boof.eu.org/Software/</loc>
@@ -105,12 +105,8 @@
 <lastmod>2022-10-28T16:58:33+02:00</lastmod>
 </url>
 <url>
-<loc>https://boof.eu.org/Games/Knotted/</loc>
-<lastmod>2022-11-14T10:40:10+01:00</lastmod>
-</url>
-<url>
 <loc>https://boof.eu.org/Games/Krydder/</loc>
-<lastmod>2022-12-16T14:49:14+01:00</lastmod>
+<lastmod>2023-01-18T14:01:15+01:00</lastmod>
 </url>
 <url>
 <loc>https://boof.eu.org/Games/Megapolis/</loc>
@@ -181,6 +177,10 @@
 <lastmod>2023-01-12T09:45:13+01:00</lastmod>
 </url>
 <url>
+<loc>https://boof.eu.org/Other/down/</loc>
+<lastmod>2023-01-18T14:08:43+01:00</lastmod>
+</url>
+<url>
 <loc>https://boof.eu.org/Software/Calculator-inator/</loc>
 <lastmod>2022-12-13T14:07:20+01:00</lastmod>
 </url>
@@ -199,6 +199,10 @@
 <url>
 <loc>https://boof.eu.org/tools/Chat app/Chat app test.html</loc>
 <lastmod>2022-10-28T16:58:33+02:00</lastmod>
+</url>
+<url>
+<loc>https://boof.eu.org/tools/Enigma/</loc>
+<lastmod>2023-01-13T11:26:26+01:00</lastmod>
 </url>
 <url>
 <loc>https://boof.eu.org/tools/Online nes emu/</loc>
