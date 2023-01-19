@@ -38,7 +38,7 @@ jobs:
         echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
         
-    - name: Auto committing minified files
+    - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: "Github Action: Automatic sitemap update."
