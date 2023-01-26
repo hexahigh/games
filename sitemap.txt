@@ -130,10 +130,6 @@ https://boof.eu.org/Games/Zombie Apocalypse/
 https://boof.eu.org/Games/Zombie Apocalypse/script.js
 https://boof.eu.org/Games/full sphere path tracer/
 https://boof.eu.org/Games/full sphere path tracer/script.js
-https://boof.eu.org/Other/Jirafeau/
-https://boof.eu.org/Other/XYgu/
-https://boof.eu.org/Other/XYgu/vpnip.txt
-https://boof.eu.org/Other/down/
 https://boof.eu.org/Software/Calculator-inator/
 https://boof.eu.org/Software/Calculator-inator/favicon-ci.png
 https://boof.eu.org/Software/Calculator-inator/style.css
@@ -143,6 +139,13 @@ https://boof.eu.org/files/img/qm5solke.png
 https://boof.eu.org/files/sfx/108615__juskiddink__billiard-balls-single-hit-dry.wav
 https://boof.eu.org/files/sfx/Its just a burning memory.mp3
 https://boof.eu.org/files/sfx/Mekorama Mobile Official Theme Song.mp3
+https://boof.eu.org/other/Jirafeau/
+https://boof.eu.org/other/XYgu/
+https://boof.eu.org/other/XYgu/vpnip.txt
+https://boof.eu.org/other/down/
+https://boof.eu.org/other/lowband/
+https://boof.eu.org/other/lowband/videos.html
+https://boof.eu.org/other/lowband/vsauce.html
 https://boof.eu.org/tools/Base64/
 https://boof.eu.org/tools/Btorrent/
 https://boof.eu.org/tools/Btorrent/README.md
