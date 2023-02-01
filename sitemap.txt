@@ -173,6 +173,7 @@ https://boof.eu.org/tools/crash/
 https://boof.eu.org/tools/crash/script.js
 https://boof.eu.org/tools/multiup/
 https://boof.eu.org/tools/multiup/index.js
+https://boof.eu.org/tools/percentage-calc/
 https://boof.eu.org/tools/requestool/
 https://boof.eu.org/tools/requestool/index.js
 https://boof.eu.org/Games/2048/js/animframe_polyfill.js
