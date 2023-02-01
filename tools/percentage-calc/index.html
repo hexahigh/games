@@ -2,13 +2,14 @@
     function percentage(partialValue, totalValue) {
         return (100 * partialValue) / totalValue;
     }
-    
+
     function docalc(){
         const num2 = document.getElementById("input2");
         const num1 = document.getElementById("input1");
+        var calcu = percentage(num1, num2);
 
         //percentage(num1, num2)
-        document.getElementById("output").value = percentage(num1, num2);
+        document.getElementById("output").value = calcu
     }
 </script>
 <body>
