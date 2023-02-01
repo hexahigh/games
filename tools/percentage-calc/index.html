@@ -1,0 +1,20 @@
+<script>
+    function percentage(partialValue, totalValue) {
+        return (100 * partialValue) / totalValue;
+    }
+    
+    function docalc(){
+        const num2 = document.getElementById("input2");
+        const num1 = document.getElementById("input1");
+
+        percentage(num1, num2)
+        document.getElementById("output").value = percentage(num1, num2)
+    }
+</script>
+<body>
+    <h1>Percentage calculator</h1><br>
+    <p>Calculate <textarea id="input1"></textarea> Out of <textarea id="input2"></textarea></p>
+    <label>Output</label><br>
+    <textarea id="output" rows="6" cols="80" readonly></textarea><br>
+    <button type="button" id="copy" onclick="docalc();">Calculate</button>
+</body>
