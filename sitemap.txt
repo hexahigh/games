@@ -177,6 +177,7 @@ https://boof.eu.org/tools/multiup/index.js
 https://boof.eu.org/tools/percentage-calc/
 https://boof.eu.org/tools/requestool/
 https://boof.eu.org/tools/requestool/index.js
+https://boof.eu.org/tools/windows2000/
 https://boof.eu.org/tools/zoneswifi/LoadingPanel.js
 https://boof.eu.org/tools/zoneswifi/OSMMeta.js
 https://boof.eu.org/tools/zoneswifi/OpenLayers.js
