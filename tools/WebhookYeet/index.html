@@ -9,8 +9,14 @@
     <script>
         function YEET(){
             const url = document.getElementById("input").value
+            const output = document.getElementById("out")
             fetch(url, { method: 'DELETE' })
-                .then(() => document.getElementById("out") = 'Delete successful');
-        }
+                .then((response) => {
+                    if(response.ok) {
+                        output.innerHTML = 'Delete successful';
+                    }
+                        
+                })
+            }
     </script>
 </body>
