@@ -168,6 +168,7 @@ https://boof.eu.org/tools/Online nes emu/nsfplayer.html
 https://boof.eu.org/tools/Online nes emu/style.css
 https://boof.eu.org/tools/Pixel art studio/
 https://boof.eu.org/tools/Pixel art studio/index.js
+https://boof.eu.org/tools/WebhookYeet/
 https://boof.eu.org/tools/XylkJweJ/
 https://boof.eu.org/tools/XylkJweJ/README.md
 https://boof.eu.org/tools/crash/
