@@ -1,0 +1,16 @@
+<head>
+    <title>Discord webhook yeeter</title>
+</head>
+<body>
+    <label>Url:</label><br>
+    <textarea value="" rows="6" cols="80" id="input" required></textarea><br>
+    <button type="button" onclick="YEET();">YEET</button>
+    <h1 id="out"></h1>
+    <script>
+        function yeet(){
+            const url = document.getElementById("input").value
+            fetch(url, { method: 'DELETE' })
+                .then(() => document.getElementById("out") = 'Delete successful');
+        }
+    </script>
+</body>
