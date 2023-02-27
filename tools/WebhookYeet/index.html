@@ -13,7 +13,10 @@
             fetch(url, { method: 'DELETE' })
                 .then((response) => {
                     if(response.ok) {
-                        output.innerHTML = 'Delete successful';
+                        output.innerHTML = 'Succesfully yeeted';
+                    }
+                    else {
+                        output.innerHTML = 'Failed to yeet';
                     }
                         
                 })
