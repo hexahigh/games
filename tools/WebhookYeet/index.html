@@ -7,7 +7,7 @@
     <button type="button" onclick="YEET();">YEET</button>
     <h1 id="out"></h1>
     <script>
-        function yeet(){
+        function YEET(){
             const url = document.getElementById("input").value
             fetch(url, { method: 'DELETE' })
                 .then(() => document.getElementById("out") = 'Delete successful');
