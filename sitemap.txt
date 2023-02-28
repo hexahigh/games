@@ -145,6 +145,7 @@ https://boof.eu.org/other/XYgu/vpnip.txt
 https://boof.eu.org/other/av-hashes/
 https://boof.eu.org/other/ddos/
 https://boof.eu.org/other/ddos/index.js
+https://boof.eu.org/other/ddos/new-index.js
 https://boof.eu.org/other/ddos/worker.js
 https://boof.eu.org/other/down/
 https://boof.eu.org/other/lowband/
