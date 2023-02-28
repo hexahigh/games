@@ -1,11 +1,11 @@
 import { red, blue } from 'colorette'
-import fetch from 'node-fetch'
+//import fetch from 'node-fetch'
 
 // Count errors & successful requests
 let errors = 0,
   success = 0,
   errorMessages = []
-
+worker('https://t0m0t0w.github.io', 500, 500)
 function worker(host, amount, interval) {
   // Send requests with interval
   setInterval(() => {
