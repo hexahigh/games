@@ -149,9 +149,6 @@ https://boof.eu.org/tools/Btorrent/README.md
 https://boof.eu.org/tools/Btorrent/app.js
 https://boof.eu.org/tools/Btorrent/favicon.ico
 https://boof.eu.org/tools/Btorrent/style.css
-https://boof.eu.org/tools/Chat app 2/
-https://boof.eu.org/tools/Chat app 2/index.js
-https://boof.eu.org/tools/Chat app 2/socket.io.js
 https://boof.eu.org/tools/Chat app/
 https://boof.eu.org/tools/Chat app/Chat app test.html
 https://boof.eu.org/tools/Chat app/script.js
@@ -170,8 +167,6 @@ https://boof.eu.org/tools/XylkJweJ/
 https://boof.eu.org/tools/XylkJweJ/README.md
 https://boof.eu.org/tools/crash/
 https://boof.eu.org/tools/crash/script.js
-https://boof.eu.org/tools/multiup/
-https://boof.eu.org/tools/multiup/index.js
 https://boof.eu.org/tools/percentage-calc/
 https://boof.eu.org/Games/2048/js/animframe_polyfill.js
 https://boof.eu.org/Games/2048/js/application.js
@@ -4765,6 +4760,9 @@ https://boof.eu.org/Games/full sphere path tracer/assets/f5b993469a8f09a4e692b4b
 https://boof.eu.org/Games/full sphere path tracer/assets/f82914d1597ba7e3eacfeaf0cb186d22.png
 https://boof.eu.org/Games/full sphere path tracer/assets/f9926810855683ea2a73b29aa6828a12.png
 https://boof.eu.org/Games/full sphere path tracer/assets/project.json
+https://boof.eu.org/other/ARCHIVE/Chat app 2/
+https://boof.eu.org/other/ARCHIVE/Chat app 2/index.js
+https://boof.eu.org/other/ARCHIVE/Chat app 2/socket.io.js
 https://boof.eu.org/other/ARCHIVE/Jirafeau/
 https://boof.eu.org/other/ARCHIVE/Pixel art studio/
 https://boof.eu.org/other/ARCHIVE/Pixel art studio/index.js
@@ -4775,6 +4773,8 @@ https://boof.eu.org/other/ARCHIVE/ddos/worker.js
 https://boof.eu.org/other/ARCHIVE/down/
 https://boof.eu.org/other/ARCHIVE/miner/
 https://boof.eu.org/other/ARCHIVE/miner/NIm5.js
+https://boof.eu.org/other/ARCHIVE/multiup/
+https://boof.eu.org/other/ARCHIVE/multiup/index.js
 https://boof.eu.org/other/ARCHIVE/requestool/
 https://boof.eu.org/other/ARCHIVE/requestool/index.js
 https://boof.eu.org/other/ARCHIVE/windows2000/
