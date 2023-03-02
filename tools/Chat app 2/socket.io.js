@@ -142,7 +142,7 @@ function lookup(uri, opts) {
   }
 
   opts = opts || {};
-  var parsed = url_1.url(uri, opts.path || "http://de2.bot-hosting.net:6194/socket.io");
+  var parsed = url_1.url(uri, opts.path || "/socket.io");
   var source = parsed.source;
   var id = parsed.id;
   var path = parsed.path;
