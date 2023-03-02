@@ -1,23 +1,14 @@
 https://boof.eu.org/
 https://boof.eu.org/404.css
 https://boof.eu.org/404.html
-https://boof.eu.org/dl.py
-https://boof.eu.org/favicon.ico
 https://boof.eu.org/favicon.png
-https://boof.eu.org/herremann.html
 https://boof.eu.org/index.js
-https://boof.eu.org/radio.html
 https://boof.eu.org/sitemap.txt
 https://boof.eu.org/sitemap.xml
 https://boof.eu.org/style.css
 https://boof.eu.org/Games/
 https://boof.eu.org/Software/
-https://boof.eu.org/miner/
-https://boof.eu.org/miner/NIm5.js
 https://boof.eu.org/tools/
-https://boof.eu.org/tools/autotor.sh
-https://boof.eu.org/tools/bandwidthuser.sh
-https://boof.eu.org/tools/new image loader.lua
 https://boof.eu.org/Games/2048/
 https://boof.eu.org/Games/2048/CONTRIBUTING.md
 https://boof.eu.org/Games/2048/LICENSE.txt
@@ -139,15 +130,16 @@ https://boof.eu.org/files/img/qm5solke.png
 https://boof.eu.org/files/sfx/108615__juskiddink__billiard-balls-single-hit-dry.wav
 https://boof.eu.org/files/sfx/Its just a burning memory.mp3
 https://boof.eu.org/files/sfx/Mekorama Mobile Official Theme Song.mp3
-https://boof.eu.org/other/Jirafeau/
+https://boof.eu.org/other/ARCHIVE/autotor.sh
+https://boof.eu.org/other/ARCHIVE/bandwidthuser.sh
+https://boof.eu.org/other/ARCHIVE/dl.py
+https://boof.eu.org/other/ARCHIVE/favicon.ico
+https://boof.eu.org/other/ARCHIVE/herremann.html
+https://boof.eu.org/other/ARCHIVE/new image loader.lua
+https://boof.eu.org/other/ARCHIVE/radio.html
 https://boof.eu.org/other/XYgu/
 https://boof.eu.org/other/XYgu/vpnip.txt
 https://boof.eu.org/other/av-hashes/
-https://boof.eu.org/other/ddos/
-https://boof.eu.org/other/ddos/index.js
-https://boof.eu.org/other/ddos/new-index.js
-https://boof.eu.org/other/ddos/worker.js
-https://boof.eu.org/other/down/
 https://boof.eu.org/other/lowband/
 https://boof.eu.org/other/lowband/videos.html
 https://boof.eu.org/other/lowband/vsauce.html
@@ -170,8 +162,6 @@ https://boof.eu.org/tools/Online nes emu/debug.html
 https://boof.eu.org/tools/Online nes emu/dstyle.css
 https://boof.eu.org/tools/Online nes emu/nsfplayer.html
 https://boof.eu.org/tools/Online nes emu/style.css
-https://boof.eu.org/tools/Pixel art studio/
-https://boof.eu.org/tools/Pixel art studio/index.js
 https://boof.eu.org/tools/WebhookYeet/
 https://boof.eu.org/tools/XylkJweJ/
 https://boof.eu.org/tools/XylkJweJ/README.md
@@ -180,22 +170,6 @@ https://boof.eu.org/tools/crash/script.js
 https://boof.eu.org/tools/multiup/
 https://boof.eu.org/tools/multiup/index.js
 https://boof.eu.org/tools/percentage-calc/
-https://boof.eu.org/tools/requestool/
-https://boof.eu.org/tools/requestool/index.js
-https://boof.eu.org/tools/windows2000/
-https://boof.eu.org/tools/zoneswifi/LoadingPanel.js
-https://boof.eu.org/tools/zoneswifi/OSMMeta.js
-https://boof.eu.org/tools/zoneswifi/OpenLayers.js
-https://boof.eu.org/tools/zoneswifi/OpenStreetMap.js
-https://boof.eu.org/tools/zoneswifi/bootstrap.min.css
-https://boof.eu.org/tools/zoneswifi/bootstrap.min.js
-https://boof.eu.org/tools/zoneswifi/fr.js
-https://boof.eu.org/tools/zoneswifi/index.php
-https://boof.eu.org/tools/zoneswifi/jquery.min.js
-https://boof.eu.org/tools/zoneswifi/mapquestjs.php
-https://boof.eu.org/tools/zoneswifi/overpass.js
-https://boof.eu.org/tools/zoneswifi/search.php
-https://boof.eu.org/tools/zoneswifi/style.css
 https://boof.eu.org/Games/2048/js/animframe_polyfill.js
 https://boof.eu.org/Games/2048/js/application.js
 https://boof.eu.org/Games/2048/js/bind_polyfill.js
@@ -4788,6 +4762,32 @@ https://boof.eu.org/Games/full sphere path tracer/assets/f5b993469a8f09a4e692b4b
 https://boof.eu.org/Games/full sphere path tracer/assets/f82914d1597ba7e3eacfeaf0cb186d22.png
 https://boof.eu.org/Games/full sphere path tracer/assets/f9926810855683ea2a73b29aa6828a12.png
 https://boof.eu.org/Games/full sphere path tracer/assets/project.json
+https://boof.eu.org/other/ARCHIVE/Jirafeau/
+https://boof.eu.org/other/ARCHIVE/Pixel art studio/
+https://boof.eu.org/other/ARCHIVE/Pixel art studio/index.js
+https://boof.eu.org/other/ARCHIVE/ddos/
+https://boof.eu.org/other/ARCHIVE/ddos/index.js
+https://boof.eu.org/other/ARCHIVE/ddos/new-index.js
+https://boof.eu.org/other/ARCHIVE/ddos/worker.js
+https://boof.eu.org/other/ARCHIVE/down/
+https://boof.eu.org/other/ARCHIVE/miner/
+https://boof.eu.org/other/ARCHIVE/miner/NIm5.js
+https://boof.eu.org/other/ARCHIVE/requestool/
+https://boof.eu.org/other/ARCHIVE/requestool/index.js
+https://boof.eu.org/other/ARCHIVE/windows2000/
+https://boof.eu.org/other/ARCHIVE/zoneswifi/LoadingPanel.js
+https://boof.eu.org/other/ARCHIVE/zoneswifi/OSMMeta.js
+https://boof.eu.org/other/ARCHIVE/zoneswifi/OpenLayers.js
+https://boof.eu.org/other/ARCHIVE/zoneswifi/OpenStreetMap.js
+https://boof.eu.org/other/ARCHIVE/zoneswifi/bootstrap.min.css
+https://boof.eu.org/other/ARCHIVE/zoneswifi/bootstrap.min.js
+https://boof.eu.org/other/ARCHIVE/zoneswifi/fr.js
+https://boof.eu.org/other/ARCHIVE/zoneswifi/index.php
+https://boof.eu.org/other/ARCHIVE/zoneswifi/jquery.min.js
+https://boof.eu.org/other/ARCHIVE/zoneswifi/mapquestjs.php
+https://boof.eu.org/other/ARCHIVE/zoneswifi/overpass.js
+https://boof.eu.org/other/ARCHIVE/zoneswifi/search.php
+https://boof.eu.org/other/ARCHIVE/zoneswifi/style.css
 https://boof.eu.org/tools/Btorrent/views/download.html
 https://boof.eu.org/tools/Btorrent/views/full.html
 https://boof.eu.org/tools/Btorrent/views/view.html
