@@ -149,6 +149,9 @@ https://boof.eu.org/tools/Btorrent/README.md
 https://boof.eu.org/tools/Btorrent/app.js
 https://boof.eu.org/tools/Btorrent/favicon.ico
 https://boof.eu.org/tools/Btorrent/style.css
+https://boof.eu.org/tools/Chat app 2/
+https://boof.eu.org/tools/Chat app 2/index.js
+https://boof.eu.org/tools/Chat app 2/socket.io.js
 https://boof.eu.org/tools/Chat app/
 https://boof.eu.org/tools/Chat app/Chat app test.html
 https://boof.eu.org/tools/Chat app/script.js
