@@ -16,9 +16,9 @@
             <label style="color: #ffffff;">Input data</label><br>
             <textarea style="width: 90%; background: #343538; color: #ffffff;" value="" rows="6" cols="80" id="input"
                 required></textarea><br>
-            <button class="button" style="--color:#1e9bff; background: bottom;" type="button"
+            <button class="button" id="encodebutton" style="--color:#1e9bff; background: bottom;" type="button"
                 onclick="doencode();">Encode</button>
-            <button type="button" style="--color: #ff1867; margin-left: 2em; background: bottom;" class="button"
+            <button type="button" id="decodebutton" style="--color: #ff1867; margin-left: 2em; background: bottom;" class="button"
                 onclick="dodecode();">Decode</button><br>
             <label style="color: #ffffff;">Output</label><br>
             <textarea style="width: 90%; background: #343538; color: #ffffff;" id="output" rows="6" cols="80"
@@ -39,21 +39,34 @@
         function docopy() {
             document.getElementById("output").select();
             document.execCommand('copy');
+            copytext()
         }
 
         function doencode() {
             var output = btoa(document.getElementById("input").value)
             document.getElementById("output").value = output;
+            encodetext()
         }
         function dodecode() {
             var output = atob(document.getElementById("input").value)
             document.getElementById("output").value = output;
+            decodetext()
         }
 
         async function copytext() {
             document.getElementById("copy").innerHTML = "Copied!"
             await delay(500)
             document.getElementById("copy").innerHTML = "Copy"
+        }
+        async function encodetext() {
+            document.getElementById("encodebutton").innerHTML = "Encoded!"
+            await delay(500)
+            document.getElementById("encodebutton").innerHTML = "Encode"
+        }
+        async function decodetext() {
+            document.getElementById("decodebutton").innerHTML = "Decoded!"
+            await delay(500)
+            document.getElementById("decodebutton").innerHTML = "Decode"
         }
     </script>
 </body>
