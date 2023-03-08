@@ -4791,6 +4791,9 @@ https://boof.eu.org/other/ARCHIVE/zoneswifi/mapquestjs.php
 https://boof.eu.org/other/ARCHIVE/zoneswifi/overpass.js
 https://boof.eu.org/other/ARCHIVE/zoneswifi/search.php
 https://boof.eu.org/other/ARCHIVE/zoneswifi/style.css
+https://boof.eu.org/tools/Base64/new/
+https://boof.eu.org/tools/Base64/new/old.index.html
+https://boof.eu.org/tools/Base64/new/style.css
 https://boof.eu.org/tools/Btorrent/views/download.html
 https://boof.eu.org/tools/Btorrent/views/full.html
 https://boof.eu.org/tools/Btorrent/views/view.html
