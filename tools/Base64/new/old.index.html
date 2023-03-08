@@ -1,22 +1,16 @@
 <head>
     <link rel="stylesheet" href="style.css" Type="text/css" media="all">
     <title>Base64 encoder and decoder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
-<body>
+<body style="background: #27282c;">
     <h1>Encode/decode data to base64</h1>
     <form>
         <label>Input data</label><br>
         <textarea value="" rows="6" cols="80" id="input" required></textarea><br>
         <button class="button" style="--color:#1e9bff;"type="button" onclick="doencode();">Encode</button>
-        <a class="button" href="#" style="--color:#1e9bff;">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Button
-          </a>
-        <button type="button" onclick="dodecode();">Decode</button><br>
+        <button type="button" style="--color: #ff1867;" class="button" onclick="dodecode();">Decode</button><br>
         <label>Output</label><br>
         <textarea id="output" rows="6" cols="80" readonly></textarea><br>
         <button type="button" id="copy" onclick="docopy();">Copy</button>
