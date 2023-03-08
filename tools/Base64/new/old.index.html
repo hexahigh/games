@@ -1,0 +1,33 @@
+<head>
+    <link rel="stylesheet" href="style.css" Type="text/css" media="all">
+    <title>Base64 encoder and decoder</title>
+</head>
+
+<body>
+    <h1>Encode/decode data to base64</h1>
+    <form>
+        <label>Input data</label><br>
+        <textarea value="" rows="6" cols="80" id="input" required></textarea><br>
+        <button class="button" style="--color:#1e9bff;"></button>type="button" onclick="doencode();">Encode</button>
+        <button type="button" onclick="dodecode();">Decode</button><br>
+        <label>Output</label><br>
+        <textarea id="output" rows="6" cols="80" readonly></textarea><br>
+        <button type="button" id="copy" onclick="docopy();">Copy</button>
+    </form>
+
+    <script>
+        function docopy() {
+            document.getElementById("output").select();
+            document.execCommand('copy');
+        }
+
+        function doencode() {
+            var output = btoa(document.getElementById("input").value)
+            document.getElementById("output").value = output;
+        }
+        function dodecode() {
+            var output = atob(document.getElementById("input").value)
+            document.getElementById("output").value = output;
+        }
+    </script>
+</body>
