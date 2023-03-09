@@ -4886,10 +4886,14 @@ https://boof.eu.org/Games/Hextris/images/icons/apple-touch-180.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-512.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch.svg
 https://boof.eu.org/Games/Hextris/images/icons/maskable-192.png
+https://boof.eu.org/Games/Hextris/images/icons/maskable-192.webp
 https://boof.eu.org/Games/Hextris/images/icons/maskable-512.png
+https://boof.eu.org/Games/Hextris/images/icons/maskable-512.webp
 https://boof.eu.org/Games/Hextris/images/icons/maskable.svg
 https://boof.eu.org/Games/Hextris/images/icons/transparent-192.png
+https://boof.eu.org/Games/Hextris/images/icons/transparent-192.webp
 https://boof.eu.org/Games/Hextris/images/icons/transparent-512.png
+https://boof.eu.org/Games/Hextris/images/icons/transparent-512.webp
 https://boof.eu.org/Games/Hextris/images/icons/transparent.svg
 https://boof.eu.org/Games/Hextris/style/fonts/Exo2-ExtraLight.otf
 https://boof.eu.org/Games/Hextris/style/fonts/Exo2-Regular.otf
