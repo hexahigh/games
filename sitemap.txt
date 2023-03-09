@@ -153,9 +153,6 @@ https://boof.eu.org/tools/Btorrent/style.css
 https://boof.eu.org/tools/Chat app/
 https://boof.eu.org/tools/Chat app/Chat app test.html
 https://boof.eu.org/tools/Chat app/script.js
-https://boof.eu.org/tools/Enigma/
-https://boof.eu.org/tools/Enigma/favicon.ico
-https://boof.eu.org/tools/Enigma/manifest.json
 https://boof.eu.org/tools/Online nes emu/
 https://boof.eu.org/tools/Online nes emu/LICENSE.txt
 https://boof.eu.org/tools/Online nes emu/README.md
@@ -4764,6 +4761,9 @@ https://boof.eu.org/Games/full sphere path tracer/assets/project.json
 https://boof.eu.org/other/ARCHIVE/Chat app 2/
 https://boof.eu.org/other/ARCHIVE/Chat app 2/index.js
 https://boof.eu.org/other/ARCHIVE/Chat app 2/socket.io.js
+https://boof.eu.org/other/ARCHIVE/Enigma/
+https://boof.eu.org/other/ARCHIVE/Enigma/favicon.ico
+https://boof.eu.org/other/ARCHIVE/Enigma/manifest.json
 https://boof.eu.org/other/ARCHIVE/Jirafeau/
 https://boof.eu.org/other/ARCHIVE/Pixel art studio/
 https://boof.eu.org/other/ARCHIVE/Pixel art studio/index.js
@@ -4800,8 +4800,6 @@ https://boof.eu.org/tools/Chat app/assets/cd21514d0531fdffb22204e0ec5ed84a.svg
 https://boof.eu.org/tools/Chat app/assets/d791281f1978fd84b131dbf72ebc52cd.wav
 https://boof.eu.org/tools/Chat app/assets/fc894b72149994b2ce508e4d1d2b7439.svg
 https://boof.eu.org/tools/Chat app/assets/project.json
-https://boof.eu.org/tools/Enigma/static/KFOjCneDtsqEr0keqCMhbCc6CsE.ttf
-https://boof.eu.org/tools/Enigma/static/css12d1.css
 https://boof.eu.org/tools/Online nes emu/js/audio.js
 https://boof.eu.org/tools/Online nes emu/js/dbmain.js
 https://boof.eu.org/tools/Online nes emu/js/debugger.js
@@ -5057,10 +5055,8 @@ https://boof.eu.org/Games/SpaceInvaders/assets/img/player.png
 https://boof.eu.org/Games/SpaceInvaders/assets/img/starfield.png
 https://boof.eu.org/Games/SpaceInvaders/assets/javascript/built.js
 https://boof.eu.org/Games/SpaceInvaders/assets/javascript/main.js
-https://boof.eu.org/tools/Enigma/static/css/2.e02cb27b.chunk.css
-https://boof.eu.org/tools/Enigma/static/css/main.0710f087.chunk.css
-https://boof.eu.org/tools/Enigma/static/js/2.18196566.chunk.js
-https://boof.eu.org/tools/Enigma/static/js/main.c7523ae0.chunk.js
+https://boof.eu.org/other/ARCHIVE/Enigma/static/KFOjCneDtsqEr0keqCMhbCc6CsE.ttf
+https://boof.eu.org/other/ARCHIVE/Enigma/static/css12d1.css
 https://boof.eu.org/Games/Hextris/style/fa/css/font-awesome.css
 https://boof.eu.org/Games/Hextris/style/fa/css/font-awesome.min.css
 https://boof.eu.org/Games/Hextris/style/fa/fonts/FontAwesome.otf
@@ -5112,3 +5108,7 @@ https://boof.eu.org/Games/SpaceInvaders/assets/javascript/state/End.js
 https://boof.eu.org/Games/SpaceInvaders/assets/javascript/state/Load.js
 https://boof.eu.org/Games/SpaceInvaders/assets/javascript/state/Play.js
 https://boof.eu.org/Games/SpaceInvaders/assets/javascript/state/Start.js
+https://boof.eu.org/other/ARCHIVE/Enigma/static/css/2.e02cb27b.chunk.css
+https://boof.eu.org/other/ARCHIVE/Enigma/static/css/main.0710f087.chunk.css
+https://boof.eu.org/other/ARCHIVE/Enigma/static/js/2.18196566.chunk.js
+https://boof.eu.org/other/ARCHIVE/Enigma/static/js/main.c7523ae0.chunk.js
