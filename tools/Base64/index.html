@@ -5,7 +5,7 @@
 </head>
 <noscript>
     <div style="width: 100%; height: 100%; background-color: #ffffff; color: #27282c;">
-        <h1>You seem to have </h1>
+        <h1>You seem to have javascript disabled.<br> This page will not work.</h1>
     </div>
 </noscript>
 
@@ -36,36 +36,40 @@
                 setTimeout(resolve, milliseconds);
             });
         }
+        //Copies the text from the output
         function docopy() {
             document.getElementById("output").select();
             document.execCommand('copy');
             copytext()
         }
-
+        //Takes care of the encoding
         function doencode() {
             var output = btoa(document.getElementById("input").value)
             document.getElementById("output").value = output;
             encodetext()
         }
+        //Takes care of the decoding
         function dodecode() {
             var output = atob(document.getElementById("input").value)
             document.getElementById("output").value = output;
             decodetext()
         }
+        //How long the text will appear in milliseconds
+        const textTime = 750
 
         async function copytext() {
             document.getElementById("copy").innerHTML = "Copied!"
-            await delay(500)
+            await delay(textTime)
             document.getElementById("copy").innerHTML = "Copy"
         }
         async function encodetext() {
             document.getElementById("encodebutton").innerHTML = "Encoded!"
-            await delay(500)
+            await delay(textTime)
             document.getElementById("encodebutton").innerHTML = "Encode"
         }
         async function decodetext() {
             document.getElementById("decodebutton").innerHTML = "Decoded!"
-            await delay(500)
+            await delay(textTime)
             document.getElementById("decodebutton").innerHTML = "Decode"
         }
     </script>
