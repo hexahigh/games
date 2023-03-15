@@ -60,11 +60,13 @@ class TextScramble {
 // Example
 // ——————————————————————————————————————————————————
 
-const phrases = ['You think you are funny?',
+const phrases = [
+ 'You think you are funny?',
  'Do you think that the number 69 is funny?', 
  'You probably just see the number 69 and go "haha 69"', 
  'Its not funny', 
- 'Please stop'];
+ 'Please stop'
+];
 
 
 const el = document.querySelector('.text');
