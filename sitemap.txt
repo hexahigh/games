@@ -163,7 +163,6 @@ https://boof.eu.org/tools/Online nes emu/style.css
 https://boof.eu.org/tools/WebhookYeet/
 https://boof.eu.org/tools/XylkJweJ/
 https://boof.eu.org/tools/XylkJweJ/README.md
-https://boof.eu.org/tools/XylkJweJ/secret.html
 https://boof.eu.org/tools/crash/
 https://boof.eu.org/tools/crash/script.js
 https://boof.eu.org/tools/percentage-calc/
@@ -4829,6 +4828,10 @@ https://boof.eu.org/tools/XylkJweJ/assets/SunIcon.svg
 https://boof.eu.org/tools/XylkJweJ/assets/calculator.ico
 https://boof.eu.org/tools/XylkJweJ/scripts/script.js
 https://boof.eu.org/tools/XylkJweJ/scripts/secret.js
+https://boof.eu.org/tools/XylkJweJ/secret/
+https://boof.eu.org/tools/XylkJweJ/secret/script.js
+https://boof.eu.org/tools/XylkJweJ/secret/secret.html
+https://boof.eu.org/tools/XylkJweJ/secret/style.css
 https://boof.eu.org/tools/XylkJweJ/styles/dark.css
 https://boof.eu.org/tools/XylkJweJ/styles/light.css
 https://boof.eu.org/tools/crash/assets/1c44b7494dec047371f74c705f1d99fc.svg

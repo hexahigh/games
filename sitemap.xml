@@ -226,11 +226,7 @@
 </url>
 <url>
 <loc>https://boof.eu.org/tools/XylkJweJ/</loc>
-<lastmod>2023-03-15T12:29:19+01:00</lastmod>
-</url>
-<url>
-<loc>https://boof.eu.org/tools/XylkJweJ/secret.html</loc>
-<lastmod>2023-03-15T12:32:56+01:00</lastmod>
+<lastmod>2023-03-15T12:46:58+01:00</lastmod>
 </url>
 <url>
 <loc>https://boof.eu.org/tools/crash/</loc>
@@ -299,5 +295,13 @@
 <url>
 <loc>https://boof.eu.org/tools/Btorrent/views/view.html</loc>
 <lastmod>2022-11-03T08:09:58+01:00</lastmod>
+</url>
+<url>
+<loc>https://boof.eu.org/tools/XylkJweJ/secret/</loc>
+<lastmod>2023-03-15T12:46:58+01:00</lastmod>
+</url>
+<url>
+<loc>https://boof.eu.org/tools/XylkJweJ/secret/secret.html</loc>
+<lastmod>2023-03-15T12:46:58+01:00</lastmod>
 </url>
 </urlset>
