@@ -21,13 +21,15 @@ async function ninePress() {
     ninePressed = false
 }
 
-
+checkSecret()
 async function checkSecret() {
     while (doCheck == true) {
         await delay(50)
-        if (sixPressed == true && ninePressed == true) {
-            document.getElementById("wrapper").style.display = "none";
-            document.getElementById("iframeDiv").style.display = "block";
+        if (sixPressed == true) {
+            if (ninePressed == true) {
+                document.getElementById("wrapper").style.display = "none";
+                document.getElementById("iframeDiv").style.display = "block";
+            }
         }
     }
 }
