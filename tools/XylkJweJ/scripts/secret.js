@@ -11,26 +11,19 @@ function delay(milliseconds) {
 
 async function sixPress() {
     sixPressed = true
-    await delay(1000)
+    await delay(500)
     sixPressed = false
 }
 
-async function ninePress() {
-    ninePressed = true
-    await delay(1000)
-    ninePressed = false
+function ninePress() {
+    checkSecret()
 }
 
-checkSecret()
+
 async function checkSecret() {
-    while (doCheck == true) {
-        await delay(50)
-        if (sixPressed == true) {
-            if (ninePressed == true) {
-                //document.getElementById("wrapper").style.display = "none";
-                document.getElementById("iframeDiv").style.display = "block";
-                doCheck = false
-            }
-        }
+    if (sixPressed == true) {
+        //document.getElementById("wrapper").style.display = "none";
+        document.getElementById("iframeDiv").style.display = "block";
+
     }
 }
