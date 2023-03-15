@@ -61,10 +61,13 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
- 'You think you are funny?',
+ 'Do you think you are funny?',
  'Do you think that the number 69 is funny?', 
- 'You probably just see the number 69 and go "haha 69"', 
- 'Its not funny', 
+ 'You probably just see the number 69 and go "haha 69"',
+ 'I bet you are laughing just by reading this text',
+ 'Its just a number',
+ 'There is nothing comedic about it',
+ 'Its not funny',
  'Please stop'
 ];
 
