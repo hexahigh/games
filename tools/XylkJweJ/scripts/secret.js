@@ -27,8 +27,9 @@ async function checkSecret() {
         await delay(50)
         if (sixPressed == true) {
             if (ninePressed == true) {
-                document.getElementById("wrapper").style.display = "none";
+                //document.getElementById("wrapper").style.display = "none";
                 document.getElementById("iframeDiv").style.display = "block";
+                doCheck = false
             }
         }
     }
