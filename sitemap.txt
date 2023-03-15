@@ -163,6 +163,7 @@ https://boof.eu.org/tools/Online nes emu/style.css
 https://boof.eu.org/tools/WebhookYeet/
 https://boof.eu.org/tools/XylkJweJ/
 https://boof.eu.org/tools/XylkJweJ/README.md
+https://boof.eu.org/tools/XylkJweJ/secret.html
 https://boof.eu.org/tools/crash/
 https://boof.eu.org/tools/crash/script.js
 https://boof.eu.org/tools/percentage-calc/
