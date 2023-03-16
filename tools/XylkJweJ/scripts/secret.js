@@ -27,3 +27,22 @@ async function checkSecret() {
 
     }
 }
+
+
+//adding event handler on the document to handle keyboard inputs
+document.addEventListener("keydown", keyboardInputHandler);
+
+//function to handle keyboard inputs
+function keyboardInputHandler(o) {
+  // to fix the default behavior of browser,
+  // enter and backspace were causing undesired behavior when some key was already in focus.
+  o.preventDefault();
+  //grabbing the liveScreen
+
+  //numbers
+  if (o.key === "6") {
+    sixPress()
+  } else if (o.key === "9") {
+    checkSecret()
+  }
+}
