@@ -22,7 +22,7 @@ function ninePress() {
 
 async function checkSecret() {
     if (sixPressed == true) {
-        document.getElementById("wrapper").style.display = "none";
+        //document.getElementById("wrapper").style.display = "none";
         document.getElementById("iframeDiv").style.display = "block";
 
     }
