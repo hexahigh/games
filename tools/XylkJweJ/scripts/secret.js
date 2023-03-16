@@ -30,7 +30,7 @@ async function checkSecret() {
 
 
 //adding event handler on the document to handle keyboard inputs
-document.addEventListener("keydown", keyboardInputHandler);
+document.addEventListener("keyup", keyboardInputHandler);
 
 //function to handle keyboard inputs
 function keyboardInputHandler(o) {
