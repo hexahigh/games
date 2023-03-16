@@ -161,8 +161,8 @@ https://boof.eu.org/tools/Online nes emu/dstyle.css
 https://boof.eu.org/tools/Online nes emu/nsfplayer.html
 https://boof.eu.org/tools/Online nes emu/style.css
 https://boof.eu.org/tools/WebhookYeet/
-https://boof.eu.org/tools/XylkJweJ/
-https://boof.eu.org/tools/XylkJweJ/README.md
+https://boof.eu.org/tools/calculator/
+https://boof.eu.org/tools/calculator/README.md
 https://boof.eu.org/tools/crash/
 https://boof.eu.org/tools/crash/script.js
 https://boof.eu.org/tools/percentage-calc/
@@ -4821,19 +4821,19 @@ https://boof.eu.org/tools/Online nes emu/nes/cpu.js
 https://boof.eu.org/tools/Online nes emu/nes/mappers.js
 https://boof.eu.org/tools/Online nes emu/nes/nes.js
 https://boof.eu.org/tools/Online nes emu/nes/pipu.js
-https://boof.eu.org/tools/XylkJweJ/assets/GitHubDark.svg
-https://boof.eu.org/tools/XylkJweJ/assets/GitHubLight.svg
-https://boof.eu.org/tools/XylkJweJ/assets/MoonIcon.svg
-https://boof.eu.org/tools/XylkJweJ/assets/SunIcon.svg
-https://boof.eu.org/tools/XylkJweJ/assets/calculator.ico
-https://boof.eu.org/tools/XylkJweJ/scripts/script.js
-https://boof.eu.org/tools/XylkJweJ/scripts/secret.js
-https://boof.eu.org/tools/XylkJweJ/secret/
-https://boof.eu.org/tools/XylkJweJ/secret/script.js
-https://boof.eu.org/tools/XylkJweJ/secret/secret.html
-https://boof.eu.org/tools/XylkJweJ/secret/style.css
-https://boof.eu.org/tools/XylkJweJ/styles/dark.css
-https://boof.eu.org/tools/XylkJweJ/styles/light.css
+https://boof.eu.org/tools/calculator/assets/GitHubDark.svg
+https://boof.eu.org/tools/calculator/assets/GitHubLight.svg
+https://boof.eu.org/tools/calculator/assets/MoonIcon.svg
+https://boof.eu.org/tools/calculator/assets/SunIcon.svg
+https://boof.eu.org/tools/calculator/assets/calculator.ico
+https://boof.eu.org/tools/calculator/scripts/script.js
+https://boof.eu.org/tools/calculator/scripts/secret.js
+https://boof.eu.org/tools/calculator/secret/
+https://boof.eu.org/tools/calculator/secret/script.js
+https://boof.eu.org/tools/calculator/secret/secret.html
+https://boof.eu.org/tools/calculator/secret/style.css
+https://boof.eu.org/tools/calculator/styles/dark.css
+https://boof.eu.org/tools/calculator/styles/light.css
 https://boof.eu.org/tools/crash/assets/1c44b7494dec047371f74c705f1d99fc.svg
 https://boof.eu.org/tools/crash/assets/3c6241985b581284ec191f9d1deffde8.svg
 https://boof.eu.org/tools/crash/assets/83a9787d4cb6f3b7632b4ddfebf74367.wav
