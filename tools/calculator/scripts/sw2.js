@@ -2,6 +2,8 @@
 
 const cacheName = "calcu-v1";
 const appShellFiles = [
+    "../",
+    "../secret",
     "../index.html",
     "../styles/dark.css",
     "../styles/light.css",
