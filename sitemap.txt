@@ -4828,8 +4828,6 @@ https://boof.eu.org/tools/calculator/assets/SunIcon.svg
 https://boof.eu.org/tools/calculator/assets/calculator.ico
 https://boof.eu.org/tools/calculator/scripts/script.js
 https://boof.eu.org/tools/calculator/scripts/secret.js
-https://boof.eu.org/tools/calculator/scripts/service-worker.js
-https://boof.eu.org/tools/calculator/scripts/sw2.js
 https://boof.eu.org/tools/calculator/secret/
 https://boof.eu.org/tools/calculator/secret/script.js
 https://boof.eu.org/tools/calculator/secret/secret.html
