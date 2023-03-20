@@ -5,6 +5,12 @@ const moonIcon = "assets/MoonIcon.svg";
 const themeIcon = document.getElementById("theme-icon");
 const res = document.getElementById("result");
 const toast = document.getElementById("toast");
+function is21() {
+  if(res.value == 21) {
+    const audio21 = new Audio('assets/21.mp3');
+    audio21.play();
+  }
+}
 
 function calculate(value) {
   const calculatedValue = eval(value || null);
@@ -15,6 +21,7 @@ function calculate(value) {
     }, 1300);
   } else {
     res.value = calculatedValue;
+    is21()
   }
 }
 
