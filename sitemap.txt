@@ -4821,6 +4821,7 @@ https://boof.eu.org/tools/Online nes emu/nes/cpu.js
 https://boof.eu.org/tools/Online nes emu/nes/mappers.js
 https://boof.eu.org/tools/Online nes emu/nes/nes.js
 https://boof.eu.org/tools/Online nes emu/nes/pipu.js
+https://boof.eu.org/tools/calculator/assets/21.mp3
 https://boof.eu.org/tools/calculator/assets/GitHubDark.svg
 https://boof.eu.org/tools/calculator/assets/GitHubLight.svg
 https://boof.eu.org/tools/calculator/assets/MoonIcon.svg
