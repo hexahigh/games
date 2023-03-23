@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: clone
-      run:
+      run: |
         git clone https://github.com/hexahigh/games.git
         git clone https://github.com/hexahigh/portfolio.git
         git clone https://github.com/hexahigh/nodejs-hash-antivirus.git
