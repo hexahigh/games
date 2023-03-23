@@ -1,0 +1,17 @@
+name: sync with codeberg
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  sitemap_job:
+    runs-on: ubuntu-latest
+    name: sync
+
+    steps:
+    - name: clone
+      run:
+        git clone https://github.com/hexahigh/games.git
+        git clone https://github.com/hexahigh/portfolio.git
+        git clone https://github.com/hexahigh/nodejs-hash-antivirus.git
