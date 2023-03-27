@@ -121,6 +121,7 @@ https://boof.eu.org/Games/Zombie Apocalypse/
 https://boof.eu.org/Games/Zombie Apocalypse/script.js
 https://boof.eu.org/Games/full sphere path tracer/
 https://boof.eu.org/Games/full sphere path tracer/script.js
+https://boof.eu.org/Games/move-cube/
 https://boof.eu.org/Software/Calculator-inator/
 https://boof.eu.org/Software/Calculator-inator/favicon-ci.png
 https://boof.eu.org/Software/Calculator-inator/style.css
@@ -4759,6 +4760,7 @@ https://boof.eu.org/Games/full sphere path tracer/assets/f5b993469a8f09a4e692b4b
 https://boof.eu.org/Games/full sphere path tracer/assets/f82914d1597ba7e3eacfeaf0cb186d22.png
 https://boof.eu.org/Games/full sphere path tracer/assets/f9926810855683ea2a73b29aa6828a12.png
 https://boof.eu.org/Games/full sphere path tracer/assets/project.json
+https://boof.eu.org/Games/move-cube/js/draw.js
 https://boof.eu.org/other/ARCHIVE/Chat app 2/
 https://boof.eu.org/other/ARCHIVE/Chat app 2/index.js
 https://boof.eu.org/other/ARCHIVE/Chat app 2/socket.io.js
