@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, windowWidth);
 }
 
 var rectX = 0;
@@ -9,8 +9,8 @@ function draw() {
     background(220);
     //For (var BEGIN; END; INTERVAL){
     //DO SOMETHING }
-    for (var x = 0; x < width; x += width / 40) {
-        for (var y = 0; y < height; y += height / 40) {
+    for (var x = 0; x < width; x += width / windowWidth / 20) {
+        for (var y = 0; y < height; y += height / windowWidth / 20) {
             stroke(0);
             strokeWeight(1);
             line(x, 0, x, height);
@@ -34,16 +34,16 @@ function draw() {
 
 function keyReleased() {
     if (keyCode == RIGHT_ARROW) {
-        rectX += 40;
+        rectX += windowWidth / 20;
     } else if (keyCode == LEFT_ARROW) {
-        rectX -= 40;
+        rectX -= windowWidth / 20;
     } else if (keyCode == UP_ARROW) {
-        rectY -= 40;
+        rectY -= windowWidth / 20;
     } else if (keyCode == DOWN_ARROW) {
-        rectY += 40;
+        rectY += windowWidth / 20;
     }
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
+    resizeCanvas(windowWidth, windowWidth);
  }
