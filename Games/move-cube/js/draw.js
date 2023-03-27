@@ -18,7 +18,7 @@ function draw() {
             line(0, y, width, y);
         }
     }
-    if (keyPressed) {
+    /*if (keyPressed) {
         if (keyCode == RIGHT_ARROW) {
             rectX += 40;
         } else if (keyCode == LEFT_ARROW) {
@@ -28,7 +28,7 @@ function draw() {
         } else if (keyCode == DOWN_ARROW) {
             rectY += 40;
         }
-    }
+    }*/
 }
 
 function keyReleased() {
