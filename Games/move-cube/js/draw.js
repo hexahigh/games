@@ -14,4 +14,5 @@ function draw() {
             line(0, y, width, y);
         }
     }
+    rect(30, 20, 40, 40, 20);
 }
