@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(displayWidth, displayHeight);
 }
 
 var rectX = 200;
