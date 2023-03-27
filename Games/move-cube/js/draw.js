@@ -2,6 +2,9 @@ function setup() {
     createCanvas(400, 400);
 }
 
+var rectX = 200;
+var rectY = 200;
+
 function draw() {
     background(220);
     //For (var BEGIN; END; INTERVAL){
@@ -14,5 +17,16 @@ function draw() {
             line(0, y, width, y);
         }
     }
-    rect(30, 20, 40, 40, 20);
+    if (keyReleased) {
+        if (keyCode == RIGHT_ARROW) {
+         rectX +=40; 
+        }  else if (keyCode == LEFT_ARROW) {
+          rectX -= 40;
+        } else if (keyCode == UP_ARROW) {
+          rectY -= 40; 
+        } else if (keyCode == DOWN_ARROW) {
+          rectY +=40; 
+        }
+       }
+    rect(rectX, rectY, 30, 20, 40, 40, 20);
 }
