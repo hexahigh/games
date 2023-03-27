@@ -30,3 +30,15 @@ function draw() {
         }
     }
 }
+
+function keyReleased() {
+    if (keyCode == RIGHT_ARROW) {
+        rectX += 40;
+    } else if (keyCode == LEFT_ARROW) {
+        rectX -= 40;
+    } else if (keyCode == UP_ARROW) {
+        rectY -= 40;
+    } else if (keyCode == DOWN_ARROW) {
+        rectY += 40;
+    }
+}
