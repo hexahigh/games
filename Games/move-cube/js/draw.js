@@ -7,8 +7,6 @@ var rectY = 0;
 
 function draw() {
     background(220);
-    translate(windowWidth / 2, windowHeight / 2);
-    rect(rectX, rectY, 40, 40);
     //For (var BEGIN; END; INTERVAL){
     //DO SOMETHING }
     for (var x = 0; x < width; x += width / 40) {
@@ -19,6 +17,8 @@ function draw() {
             line(0, y, width, y);
         }
     }
+    translate(windowWidth / 2, windowHeight / 2);
+    rect(rectX, rectY, 40, 40);
     /*if (keyPressed) {
         if (keyCode == RIGHT_ARROW) {
             rectX += 40;
