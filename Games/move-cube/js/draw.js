@@ -2,8 +2,8 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
 }
 
-var rectX = 200;
-var rectY = 200;
+var rectX = center();
+var rectY = center();
 
 function draw() {
     background(220);
