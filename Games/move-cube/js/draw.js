@@ -7,7 +7,7 @@ var rectY = 200;
 
 function draw() {
     background(220);
-    rect(rectX, rectY, 30, 20, 40, 40, 20);
+    rect(rectX, rectY, 40, 40, 20);
     //For (var BEGIN; END; INTERVAL){
     //DO SOMETHING }
     for (var x = 0; x < width; x += width / 40) {
