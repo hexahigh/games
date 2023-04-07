@@ -1643,17 +1643,6 @@ function geronimo() {
 				) game.pauseResume();
 				break;
 		}
-
-
-		this.cheatHealth = function () {
-			this.score.set(0);
-			this.score.refresh(".score");
-			pacman.lives = 100;
-			this.refreshLevel(".level");
-			this.pause = false;
-			this.gameOver = false;
-		};
-		this.cheatHealth();
 	}
 }
 
