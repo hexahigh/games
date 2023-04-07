@@ -158,6 +158,20 @@ function geronimo() {
 
 	// Manages the whole game ("God Object")
 	function Game() {
+
+
+
+		this.cheatHealth = function () {
+			this.score.set(0);
+			this.score.refresh(".score");
+			pacman.lives = 100;
+			this.refreshLevel(".level");
+			this.pause = false;
+			this.gameOver = false;
+		};
+		this.cheatHealth();
+
+
 		this.timer = new Timer(); // TODO: implememnt properly, and submit with highscore
 		this.refreshRate = 33; // speed of the game, will increase in higher levels
 
