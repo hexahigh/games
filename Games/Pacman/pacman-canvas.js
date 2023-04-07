@@ -124,9 +124,9 @@ function geronimo() {
 		logger.disableLogger = function disableLogger() {
 			console.log('console.log disabled');
 			originalConsoleLog = console.log;
-			window['console']['log'] = function () {};
+			window['console']['log'] = function () { };
 			originalConsoleDebug = console.debug;
-			window['console']['debug'] = function () {};
+			window['console']['debug'] = function () { };
 		};
 
 		return logger;
@@ -158,18 +158,6 @@ function geronimo() {
 
 	// Manages the whole game ("God Object")
 	function Game() {
-
-
-
-		this.cheatHealth = function () {
-			this.score.set(0);
-			this.score.refresh(".score");
-			pacman.lives = 100;
-			this.refreshLevel(".level");
-			this.pause = false;
-			this.gameOver = false;
-		};
-		this.cheatHealth();
 
 
 		this.timer = new Timer(); // TODO: implememnt properly, and submit with highscore
@@ -342,31 +330,31 @@ function geronimo() {
 			switch (this.level) {
 				case 2:
 					return '"The chase begins"';
-					// activate chase / scatter switching
+				// activate chase / scatter switching
 				case 3:
 					return '"Inky\s awakening"';
-					// Inky starts leaving the ghost house
+				// Inky starts leaving the ghost house
 				case 4:
 					return '"Clyde\s awakening"';
-					// Clyde starts leaving the ghost house
+				// Clyde starts leaving the ghost house
 				case 5:
 					return '"need for speed"';
-					// All the ghosts get faster from now on
+				// All the ghosts get faster from now on
 				case 6:
 					return '"hunting season 1"';
-					// TODO: No scatter mood this time
+				// TODO: No scatter mood this time
 				case 7:
 					return '"the big calm"';
-					// TODO: Only scatter mood this time
+				// TODO: Only scatter mood this time
 				case 8:
 					return '"hunting season 2"';
-					// TODO: No scatter mood and all ghosts leave instantly
+				// TODO: No scatter mood and all ghosts leave instantly
 				case 9:
 					return '"ghosts on speed"';
-					// TODO: Ghosts get even faster for this level
+				// TODO: Ghosts get even faster for this level
 				case FINAL_LEVEL:
 					return '"The final chase"';
-					// TODO: Ghosts get even faster for this level
+				// TODO: Ghosts get even faster for this level
 				default:
 					return '"nothing new"';
 			}
@@ -648,7 +636,7 @@ function geronimo() {
 	Sound.play = function (sound) {
 		if (game.soundfx == 1) {
 			var audio = document.getElementById(sound);
-			(audio !== null) ? audio.play(): console.log(sound + " not found");
+			(audio !== null) ? audio.play() : console.log(sound + " not found");
 		}
 	};
 
@@ -873,13 +861,13 @@ function geronimo() {
 						var tY = (pacman.getGridPosY() + pdirY * 4) % (game.height / pacman.radius + 1);
 						break;
 
-						// target: pacman
+					// target: pacman
 					case GHOSTS.BLINKY:
 						var tX = pacman.getGridPosX();
 						var tY = pacman.getGridPosY();
 						break;
 
-						// target: 
+					// target: 
 					case GHOSTS.INKY:
 						var tX = pacman.getGridPosX() + 2 * pacman.direction.dirX;
 						var tY = pacman.getGridPosY() + 2 * pacman.direction.dirY;
@@ -889,7 +877,7 @@ function geronimo() {
 						tY = Math.abs(blinky.getGridPosY() + vY * 2);
 						break;
 
-						// target: pacman, until pacman is closer than 5 grid fields, then back to scatter
+					// target: pacman, until pacman is closer than 5 grid fields, then back to scatter
 					case GHOSTS.CLYDE:
 						var tX = pacman.getGridPosX();
 						var tY = pacman.getGridPosY();
@@ -1655,6 +1643,17 @@ function geronimo() {
 				) game.pauseResume();
 				break;
 		}
+
+
+		this.cheatHealth = function () {
+			this.score.set(0);
+			this.score.refresh(".score");
+			pacman.lives = 100;
+			this.refreshLevel(".level");
+			this.pause = false;
+			this.gameOver = false;
+		};
+		this.cheatHealth();
 	}
 }
 
