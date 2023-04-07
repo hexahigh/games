@@ -1588,6 +1588,7 @@ https://boof.eu.org/Games/Pacman/img/icon-128_old.png
 https://boof.eu.org/Games/Pacman/img/inky.svg
 https://boof.eu.org/Games/Pacman/img/pinky.svg
 https://boof.eu.org/Games/Pacman/img/platzh1rsch-logo.png
+https://boof.eu.org/Games/Pacman/js/cheats.js
 https://boof.eu.org/Games/Pacman/js/jquery-1.10.2.min.js
 https://boof.eu.org/Games/Pacman/js/jquery.hammer.min.js
 https://boof.eu.org/Games/Pacman/js/virtualjoystick.js
