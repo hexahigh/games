@@ -1,1 +1,0 @@
-document.getElementById("response").innerHTML = "Bonjour";
