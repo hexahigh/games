@@ -32,12 +32,19 @@
 }
 
 
+.animated-gradient {
+  animation: animateBg 30s linear infinite;
+  background-image: linear-gradient(90deg,#bd4faf,#ff8000,#bd4faf,#ff8000);
+  background-size: 300% 100%;
+}
+
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: blue;
+  background-color: rgb(255, 145, 0);
   color: white;
   text-align: center;
   height: auto;
