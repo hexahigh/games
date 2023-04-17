@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <label>Input data</label><br>
+    <textarea style="width: 90%;" value="" rows="6" cols="80" id="input" required></textarea><br>
+    <button class="button" id="encodebutton" type="button" onclick="doencode();">Encode</button>
+    <button type="button" id="decodebutton" class="button" onclick="dodecode();">Decode</button><br>
+    <label>Output</label><br>
+    <textarea style="width: 90%;" id="output" rows="6" cols="80" readonly></textarea><br>
+    <button class="button" type="button" id="copy" onclick="docopy();">Copy</button>
+</body>
+
+</html>
