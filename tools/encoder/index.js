@@ -14,9 +14,9 @@ function doencode() {
 
 function dodecode() {
     var inputData = document.getElementById("input").value;
-    var outputdataP1 = rot13(inputData);
-    var outputdataP2 = base64Decode(outputdataP1);
-    var outputdata = outputdataP2;
+    var outputdataP2 = base64Decode(inputData);
+    var outputdataP1 = rot13(outputdataP2);
+    var outputdata = outputdataP1;
     document.getElementById("output").value = outputdata;
 }
 
