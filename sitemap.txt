@@ -179,6 +179,9 @@ https://boof.eu.org/tools/calculator/
 https://boof.eu.org/tools/calculator/README.md
 https://boof.eu.org/tools/crash/
 https://boof.eu.org/tools/crash/script.js
+https://boof.eu.org/tools/encoder/
+https://boof.eu.org/tools/encoder/index.js
+https://boof.eu.org/tools/encoder/style.css
 https://boof.eu.org/tools/percentage-calc/
 https://boof.eu.org/Games/2048/js/animframe_polyfill.js
 https://boof.eu.org/Games/2048/js/application.js
