@@ -1,0 +1,29 @@
+name: "Clamscan"
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "main" ]
+  schedule:
+    - cron: '44 8 * * 5'
+    
+jobs:
+    build:
+      name: Scanning repo with clamav
+      runs-on: ubuntu-latest
+      steps:
+        - name: Installing
+          run: |
+            sudo apt update
+            sudo apt install -y clamav
+            
+        - name: Updating database
+          run: |
+            sudo freshclam
+            
+        - name: Updating database
+          run: |
+            sudo clamscan -i -r ./
