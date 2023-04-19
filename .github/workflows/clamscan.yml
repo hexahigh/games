@@ -22,8 +22,8 @@ jobs:
             
         - name: Updating database
           run: |
-            sudo freshclam
+            freshclam
             
         - name: Updating database
           run: |
-            sudo clamscan -i -r ./
+            clamscan -i -r ./
