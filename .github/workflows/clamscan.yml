@@ -20,11 +20,6 @@ jobs:
             sudo apt update
             sudo apt install -y clamav
             
-        - name: Updating database
-          run: |
-            sleep 20
-            sudo freshclam
-            
         - name: Scanning
           run: |
             sudo clamscan -i -r ./
