@@ -26,9 +26,29 @@ jobs:
             sudo apt update
             sudo apt install -y clamav
             
-        - name: Waiting for 1 minute
+        - name: Disabling freshclam service
           run: |
-            sleep 1m
+            sudo systemctl stop clamav-freshclam.service
+            
+        - name: Running freshclam
+          run: |
+            sudo freshclam
+            
+        - name: Adding more databases
+          run: |
+            sudo echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfo.hdb' >> /etc/clamav/freshclam.conf
+            sudo echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfo.ign2' >> /etc/clamav/freshclam.conf
+            sudo echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/javascript.ndb' >> /etc/clamav/freshclam.conf
+            sudo echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/spam_marketing.ndb' >> /etc/clamav/freshclam.conf
+            sudo echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfohtml.hdb' >> /etc/clamav/freshclam.conf
+            sudo echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfoascii.hdb' >> /etc/clamav/freshclam.conf
+            sudo echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfoandroid.hdb' >> /etc/clamav/freshclam.conf
+            sudo echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfoold.hdb' >> /etc/clamav/freshclam.conf
+            sudo echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfopdf.hdb' >> /etc/clamav/freshclam.conf
+      
+        - name: Running freshclam
+          run: |
+            sudo freshclam
             
         - name: Scanning
           run: |
