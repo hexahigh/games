@@ -34,22 +34,6 @@ jobs:
           run: |
             sudo freshclam
             
-        - name: Adding more databases
-          run: |
-            echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfo.hdb' >> sudo tee -a /etc/clamav/freshclam.conf
-            echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfo.ign2' >> sudo tee -a /etc/clamav/freshclam.conf
-            echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/javascript.ndb' >> sudo tee -a /etc/clamav/freshclam.conf
-            echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/spam_marketing.ndb' >> sudo tee -a /etc/clamav/freshclam.conf
-            echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfohtml.hdb' >> sudo tee -a /etc/clamav/freshclam.conf
-            echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfoascii.hdb' >> sudo tee -a /etc/clamav/freshclam.conf
-            echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfoandroid.hdb' >> sudo tee -a /etc/clamav/freshclam.conf
-            echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfoold.hdb' >> sudo tee -a /etc/clamav/freshclam.conf
-            echo 'DatabaseCustomURL https://www.securiteinfo.com/get/signatures/d686bfd922a83b73482ff2e86dd67f6b867610e2c4eecdde75f9cf04fb630d074cf3737b1bad0156f49452e0ea3dc93bb545505bd6875450986d5cefa9a844b1/securiteinfopdf.hdb' >> sudo tee -a /etc/clamav/freshclam.conf
-      
-        - name: Running freshclam
-          run: |
-            sudo freshclam
-            
         - name: Scanning
           run: |
             sudo clamscan -i -r ./repo
