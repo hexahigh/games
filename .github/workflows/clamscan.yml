@@ -12,9 +12,15 @@ on:
     
 jobs:
     build:
+  
       name: Scanning repo with clamav
       runs-on: ubuntu-latest
       steps:
+        - name: Downloading git repo
+          run: |
+            git clone --depth=1 --branch=main https://github.com/hexahigh/games.git repo
+            rm -rf ./repo/.git
+        
         - name: Installing
           run: |
             sudo apt update
@@ -26,4 +32,4 @@ jobs:
             
         - name: Scanning
           run: |
-            sudo clamscan -i -r ./
+            sudo clamscan -i -r ./repo
