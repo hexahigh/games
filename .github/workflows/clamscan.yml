@@ -20,6 +20,10 @@ jobs:
             sudo apt update
             sudo apt install -y clamav
             
+        - name: Waiting for 1 minute
+          run: |
+            sleep 1m
+            
         - name: Scanning
           run: |
             sudo clamscan -i -r ./
