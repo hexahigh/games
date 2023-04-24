@@ -1,0 +1,7 @@
+.textMain {
+    text-align: center;
+}
+
+div.textMain > * {
+    font-family: 'Montserrat', sans-serif;
+}
