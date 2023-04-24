@@ -153,6 +153,8 @@ https://boof.eu.org/other/ARCHIVE/zoneswifi.tar.gz
 https://boof.eu.org/other/XYgu/
 https://boof.eu.org/other/XYgu/vpnip.txt
 https://boof.eu.org/other/av-hashes/
+https://boof.eu.org/other/cantaloupe/
+https://boof.eu.org/other/cantaloupe/lol.html
 https://boof.eu.org/other/lowband/
 https://boof.eu.org/other/lowband/videos.html
 https://boof.eu.org/other/lowband/vsauce.html
@@ -4777,6 +4779,14 @@ https://boof.eu.org/Games/full sphere path tracer/assets/f82914d1597ba7e3eacfeaf
 https://boof.eu.org/Games/full sphere path tracer/assets/f9926810855683ea2a73b29aa6828a12.png
 https://boof.eu.org/Games/full sphere path tracer/assets/project.json
 https://boof.eu.org/Games/move-cube/js/draw.js
+https://boof.eu.org/other/cantaloupe/images/idiot.png
+https://boof.eu.org/other/cantaloupe/images/speakerm.png
+https://boof.eu.org/other/cantaloupe/media/cantaloupe.mp3
+https://boof.eu.org/other/cantaloupe/media/cantaloupe.mp4
+https://boof.eu.org/other/cantaloupe/media/youare.mp3
+https://boof.eu.org/other/cantaloupe/media/youare.mp4
+https://boof.eu.org/other/cantaloupe/scripts/you.js
+https://boof.eu.org/other/cantaloupe/styles/styles.css
 https://boof.eu.org/other/nostalgia/old games/
 https://boof.eu.org/other/nostalgia/old movies and videos/
 https://boof.eu.org/tools/Btorrent/views/download.html
