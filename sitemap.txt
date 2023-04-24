@@ -4789,6 +4789,8 @@ https://boof.eu.org/other/cantaloupe/scripts/you.js
 https://boof.eu.org/other/cantaloupe/styles/styles.css
 https://boof.eu.org/other/nostalgia/old games/
 https://boof.eu.org/other/nostalgia/old movies and videos/
+https://boof.eu.org/other/school/presentation 1/
+https://boof.eu.org/other/school/presentation 1/style.css
 https://boof.eu.org/tools/Btorrent/views/download.html
 https://boof.eu.org/tools/Btorrent/views/full.html
 https://boof.eu.org/tools/Btorrent/views/view.html
