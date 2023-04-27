@@ -1,5 +1,5 @@
 // program to print prime numbers between the two numbers
-function generatePrime() {
+async function generatePrime() {
     // take input from the user
     const lowerNumber = parseInt(prompt('Enter lower number: '));
     const higherNumber = parseInt(prompt('Enter higher number: '));
