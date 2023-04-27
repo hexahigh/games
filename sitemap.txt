@@ -185,6 +185,8 @@ https://boof.eu.org/tools/encoder/
 https://boof.eu.org/tools/encoder/index.js
 https://boof.eu.org/tools/encoder/style.css
 https://boof.eu.org/tools/percentage-calc/
+https://boof.eu.org/tools/prime numbers/
+https://boof.eu.org/tools/prime numbers/index.js
 https://boof.eu.org/Games/2048/js/animframe_polyfill.js
 https://boof.eu.org/Games/2048/js/application.js
 https://boof.eu.org/Games/2048/js/bind_polyfill.js
