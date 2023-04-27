@@ -1,10 +1,10 @@
-function preGenerate() {
+async function preGenerate() {
     let statusText = document.getElementById("status")
     statusText.innerText = "Generating, please wait!"
     generatePrime()
 };
 
-function afterGenerate() {
+async function afterGenerate() {
     let statusText = document.getElementById("status")
     statusText.innerText = "Generated!"
 };
