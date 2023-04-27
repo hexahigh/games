@@ -1,3 +1,15 @@
+function preGenerate() {
+    let statusText = document.getElementById("status")
+    statusText.innerText = "Generating, please wait!"
+    generatePrime()
+};
+
+function afterGenerate() {
+    let statusText = document.getElementById("status")
+    statusText.innerText = "Generated!"
+};
+
+
 // program to print prime numbers between the two numbers
 async function generatePrime() {
     // take input from the user
@@ -21,10 +33,10 @@ async function generatePrime() {
 
         // if number greater than 1 and not divisible by other numbers
         if (i > 1 && flag == 0) {
-            console.log(i);
             OutText = document.getElementById("Text").innerText;
             OutText2 = OutText + " " + i;
             document.getElementById("Text").innerText = OutText2
         }
     }
+    afterGenerate()
 }
