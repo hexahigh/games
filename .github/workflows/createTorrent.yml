@@ -26,7 +26,7 @@ jobs:
     - name: Create the torrent
       run: |
         wget https://hexahigh.github.io/cdn/other/torrent-create.mjs
-        node torrent-create.js
+        node torrent-create.mjs
     
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
