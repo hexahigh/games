@@ -25,7 +25,7 @@ jobs:
         
     - name: Create the torrent
       run: |
-        create-torrent ./ --urlList "https://boof.eu.org" --urlList "https://games-olive-delta.vercel.app" -o site.torrent
+        create-torrent ./ --urlList "https://boof.eu.org" --urlList "https://games-olive-delta.vercel.app" --urlList "https://games-hexahigh.vercel.app" --urlList "https://games-git-main-hexahigh.vercel.app" -o site.torrent
     
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
