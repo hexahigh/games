@@ -9,7 +9,7 @@ processButton.addEventListener("click", function () {
     inputText = textInput.value;
     lines = inputText.split(/[\n\r]+/);
     console.log(lines);
-    modifiedArr = lines.map(i => '"' + i + '" ');
+    modifiedArr = lines.map(i => ' "' + i + '"');
     console.log(modifiedArr)
 });
 
