@@ -21,12 +21,11 @@ jobs:
         sudo apt update
         sudo apt install nodejs
         sudo apt install npm
-        npm install create-torrent
+        sudo npm install -g  create-torrent
         
     - name: Create the torrent
       run: |
-        wget https://hexahigh.github.io/cdn/other/torrent-create.mjs
-        node torrent-create.mjs
+        create-torrent ./ --urlList "https://boofdev.eu.org" -o site.torrent
     
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
