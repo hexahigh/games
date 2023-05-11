@@ -124,6 +124,11 @@ https://boof.eu.org/Games/Zombie Apocalypse/script.js
 https://boof.eu.org/Games/full sphere path tracer/
 https://boof.eu.org/Games/full sphere path tracer/script.js
 https://boof.eu.org/Games/move-cube/
+https://boof.eu.org/Games/sm64/
+https://boof.eu.org/Games/sm64/README.md
+https://boof.eu.org/Games/sm64/credits.txt
+https://boof.eu.org/Games/sm64/start.html
+https://boof.eu.org/Games/sm64/style.css
 https://boof.eu.org/Software/Calculator-inator/
 https://boof.eu.org/Software/Calculator-inator/favicon-ci.png
 https://boof.eu.org/Software/Calculator-inator/style.css
@@ -4789,6 +4794,13 @@ https://boof.eu.org/Games/full sphere path tracer/assets/f82914d1597ba7e3eacfeaf
 https://boof.eu.org/Games/full sphere path tracer/assets/f9926810855683ea2a73b29aa6828a12.png
 https://boof.eu.org/Games/full sphere path tracer/assets/project.json
 https://boof.eu.org/Games/move-cube/js/draw.js
+https://boof.eu.org/Games/sm64/assets/bg.jpg
+https://boof.eu.org/Games/sm64/game/sm64.js
+https://boof.eu.org/Games/sm64/pages/controls.html
+https://boof.eu.org/Games/sm64/pages/faq.html
+https://boof.eu.org/Games/sm64/pages/guide.html
+https://boof.eu.org/Games/sm64/pages/mirrors.html
+https://boof.eu.org/Games/sm64/pages/mirrors.txt
 https://boof.eu.org/other/cantaloupe/images/idiot.png
 https://boof.eu.org/other/cantaloupe/images/speakerm.png
 https://boof.eu.org/other/cantaloupe/media/cantaloupe.mp3
@@ -5082,6 +5094,9 @@ https://boof.eu.org/Games/SpaceInvaders/assets/img/player.png
 https://boof.eu.org/Games/SpaceInvaders/assets/img/starfield.png
 https://boof.eu.org/Games/SpaceInvaders/assets/javascript/built.js
 https://boof.eu.org/Games/SpaceInvaders/assets/javascript/main.js
+https://boof.eu.org/Games/sm64/assets/fonts/Mario64.svg
+https://boof.eu.org/Games/sm64/assets/fonts/font.ttf
+https://boof.eu.org/Games/sm64/assets/images/MrIncredible.jpg
 https://boof.eu.org/Games/Hextris/style/fa/css/font-awesome.css
 https://boof.eu.org/Games/Hextris/style/fa/css/font-awesome.min.css
 https://boof.eu.org/Games/Hextris/style/fa/fonts/FontAwesome.otf
