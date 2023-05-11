@@ -4894,6 +4894,14 @@ https://boof.eu.org/Games/Flappy Bird/js/entities/entities.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/gameover.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/play.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/title.js
+https://boof.eu.org/Games/Flash/bloons/1/
+https://boof.eu.org/Games/Flash/bloons/1/bloonstd.swf
+https://boof.eu.org/Games/Flash/bloons/2/
+https://boof.eu.org/Games/Flash/bloons/2/bloonstd2.swf
+https://boof.eu.org/Games/Flash/bloons/3/
+https://boof.eu.org/Games/Flash/bloons/3/bloonstd3.swf
+https://boof.eu.org/Games/Flash/bloons/4/
+https://boof.eu.org/Games/Flash/bloons/4/bloonstd4.swf
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-120.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-152.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-167.png
