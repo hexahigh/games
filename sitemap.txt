@@ -58,6 +58,7 @@ https://boof.eu.org/Games/Flappy Bird/humans.txt
 https://boof.eu.org/Games/Flappy Bird/index.css
 https://boof.eu.org/Games/Flappy Bird/package.json
 https://boof.eu.org/Games/Flash/
+https://boof.eu.org/Games/Flash/index.js
 https://boof.eu.org/Games/Flash/template.html
 https://boof.eu.org/Games/Generic Square/
 https://boof.eu.org/Games/Generic Square/script.js
