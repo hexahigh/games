@@ -821,6 +821,8 @@ https://boof.eu.org/Games/Dino game/assets/t-rex-runner-bot.gif
 https://boof.eu.org/Games/Flappy Bird/build/clumsy-min.js
 https://boof.eu.org/Games/Flappy Bird/js/game.js
 https://boof.eu.org/Games/Flappy Bird/js/melonJS-min.js
+https://boof.eu.org/Games/Flash/Bloxorz/
+https://boof.eu.org/Games/Flash/Bloxorz/bloxorz.swf
 https://boof.eu.org/Games/Flash/Interactive buddy/
 https://boof.eu.org/Games/Flash/Interactive buddy/DAbuddy.swf
 https://boof.eu.org/Games/Flash/Interactive buddy/index2.html
