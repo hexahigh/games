@@ -828,6 +828,8 @@ https://boof.eu.org/Games/Flash/Interactive buddy/DAbuddy.swf
 https://boof.eu.org/Games/Flash/Interactive buddy/index2.html
 https://boof.eu.org/Games/Flash/bloxorz/
 https://boof.eu.org/Games/Flash/bloxorz/bloxorz.swf
+https://boof.eu.org/Games/Flash/pvz/
+https://boof.eu.org/Games/Flash/pvz/pvz.swf
 https://boof.eu.org/Games/Generic Square/assets/0105056c7e555d98140ae8c564319063.svg
 https://boof.eu.org/Games/Generic Square/assets/022ba3cdf65e506b14e6ff9539205b3f.mp3
 https://boof.eu.org/Games/Generic Square/assets/02bbbd562562204bded02fa130047f7a.svg
