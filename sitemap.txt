@@ -58,6 +58,7 @@ https://boof.eu.org/Games/Flappy Bird/humans.txt
 https://boof.eu.org/Games/Flappy Bird/index.css
 https://boof.eu.org/Games/Flappy Bird/package.json
 https://boof.eu.org/Games/Flash/
+https://boof.eu.org/Games/Flash/template.html
 https://boof.eu.org/Games/Generic Square/
 https://boof.eu.org/Games/Generic Square/script.js
 https://boof.eu.org/Games/Getting Over It Scratch Edition/
@@ -821,11 +822,11 @@ https://boof.eu.org/Games/Dino game/assets/t-rex-runner-bot.gif
 https://boof.eu.org/Games/Flappy Bird/build/clumsy-min.js
 https://boof.eu.org/Games/Flappy Bird/js/game.js
 https://boof.eu.org/Games/Flappy Bird/js/melonJS-min.js
-https://boof.eu.org/Games/Flash/Bloxorz/
-https://boof.eu.org/Games/Flash/Bloxorz/bloxorz.swf
 https://boof.eu.org/Games/Flash/Interactive buddy/
 https://boof.eu.org/Games/Flash/Interactive buddy/DAbuddy.swf
 https://boof.eu.org/Games/Flash/Interactive buddy/index2.html
+https://boof.eu.org/Games/Flash/bloxorz/
+https://boof.eu.org/Games/Flash/bloxorz/bloxorz.swf
 https://boof.eu.org/Games/Generic Square/assets/0105056c7e555d98140ae8c564319063.svg
 https://boof.eu.org/Games/Generic Square/assets/022ba3cdf65e506b14e6ff9539205b3f.mp3
 https://boof.eu.org/Games/Generic Square/assets/02bbbd562562204bded02fa130047f7a.svg
