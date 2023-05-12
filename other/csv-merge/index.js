@@ -3,7 +3,7 @@ var arrayMD5 = "null"
 var array256 = "null"
 var array1 = "null"
 var output = "null"
-var linesDone = "1"
+var linesDone = 1
 const outputArea = document.getElementById("outputArea")
 
 function loadFiles() {
