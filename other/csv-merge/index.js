@@ -4,8 +4,7 @@ var array256 = "null"
 var array1 = "null"
 var output = "null"
 var linesDone = "1"
-const outputArea = document.get
-document.get 
+const outputArea = document.getElementById("outputArea").value
 
 window.onload = function loadFiles() {
     loadString()
@@ -62,7 +61,8 @@ function mergeToCsv() {
             A256 = array256[linesDone];
             Astring = arrayString[linesDone];
             A1 = array1[linesDone];
-
+            output = Astring + "," + Amd5 + "," + A1 + "," + A256
+            outputArea = outputArea + "\n" + output
         }
         linesDone + 1
     }
