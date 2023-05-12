@@ -6,7 +6,7 @@ var output = "null"
 var linesDone = "1"
 const outputArea = document.getElementById("outputArea").value
 
-window.onload = function loadFiles() {
+function loadFiles() {
     loadString()
     loadMD5()
     load256()
