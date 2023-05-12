@@ -60,9 +60,9 @@ function mergeToCsv() {
         let length = arrayString.length
         if(linesDone < 1000) {
             Amd5 = arrayMD5[linesDone];
-            A256 = array256[linesDone];
+            Asha1 = array256[linesDone];
             Astring = arrayString[linesDone];
-            A1 = array1[linesDone];
+            Asha256 = array1[linesDone];
             output = Astring + "," + Amd5 + "," + A1 + "," + A256
             outputArea.value = outputArea.value + "\n" + output
             console.log(linesDone + "/" + arrayString.length)
