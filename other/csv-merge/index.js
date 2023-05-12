@@ -58,7 +58,7 @@ function mergeToCsv() {
     console.log("Lenght of array is " + arrayString.length)
     for (x in arrayString) {
         let length = arrayString.length
-        if(linesDone < 1000) {
+        if(linesDone < length) {
             Amd5 = arrayMD5[linesDone];
             Asha1 = array256[linesDone];
             Astring = arrayString[linesDone];
