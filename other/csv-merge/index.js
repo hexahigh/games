@@ -11,6 +11,7 @@ function loadFiles() {
     loadMD5()
     load256()
     load1()
+    mergeToCsv()
 }
 
 function loadMD5() {
@@ -54,6 +55,7 @@ function load256() {
 
 
 function mergeToCsv() {
+    console.log("Lenght of array is " + arrayString.length)
     for (x in arrayString) {
         let length = arrayString.length
         if(linesDone < length) {
@@ -63,6 +65,8 @@ function mergeToCsv() {
             A1 = array1[linesDone];
             output = Astring + "," + Amd5 + "," + A1 + "," + A256
             outputArea.value = outputArea.value + "\n" + output
+            console.log(linesDone + "/" + arrayString.length)
+
         }
         linesDone + 1
     }
