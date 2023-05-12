@@ -163,6 +163,8 @@ https://boof.eu.org/other/XYgu/vpnip.txt
 https://boof.eu.org/other/av-hashes/
 https://boof.eu.org/other/cantaloupe/
 https://boof.eu.org/other/cantaloupe/lol.html
+https://boof.eu.org/other/csv-merge/
+https://boof.eu.org/other/csv-merge/index.js
 https://boof.eu.org/other/lowband/
 https://boof.eu.org/other/lowband/videos.html
 https://boof.eu.org/other/lowband/vsauce.html
@@ -4812,6 +4814,10 @@ https://boof.eu.org/other/cantaloupe/media/youare.mp3
 https://boof.eu.org/other/cantaloupe/media/youare.mp4
 https://boof.eu.org/other/cantaloupe/scripts/you.js
 https://boof.eu.org/other/cantaloupe/styles/styles.css
+https://boof.eu.org/other/csv-merge/files/random strings md5.txt
+https://boof.eu.org/other/csv-merge/files/random strings sha1.txt
+https://boof.eu.org/other/csv-merge/files/random strings sha256.txt
+https://boof.eu.org/other/csv-merge/files/random strings.txt
 https://boof.eu.org/other/nostalgia/old games/
 https://boof.eu.org/other/nostalgia/old movies and videos/
 https://boof.eu.org/other/school/presentation 1/
