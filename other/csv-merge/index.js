@@ -63,7 +63,7 @@ function mergeToCsv() {
             Asha1 = array256[linesDone];
             Astring = arrayString[linesDone];
             Asha256 = array1[linesDone];
-            output = Astring + "," + Amd5 + "," + A1 + "," + A256
+            output = Astring + "," + Amd5 + "," + Asha1 + "," + Asha256
             outputArea.value = outputArea.value + "\n" + output
             console.log(linesDone + "/" + arrayString.length)
             linesDone = linesDone + 1
