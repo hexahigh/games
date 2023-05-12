@@ -40,7 +40,7 @@ function load1() {
     .then(arrayBuffer => {
         const decoder = new TextDecoder('utf-8');
         const data = decoder.decode(new Uint8Array(arrayBuffer));
-        arrayMD5 = data.split('\n');
+        array1 = data.split('\n');
     })
 }
 function load256() {
@@ -49,7 +49,7 @@ function load256() {
     .then(arrayBuffer => {
         const decoder = new TextDecoder('utf-8');
         const data = decoder.decode(new Uint8Array(arrayBuffer));
-        arrayMD5 = data.split('\n');
+        array256 = data.split('\n');
     })
 }
 
