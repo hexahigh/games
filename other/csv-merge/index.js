@@ -66,7 +66,7 @@ function mergeToCsv() {
             output = Astring + "," + Amd5 + "," + A1 + "," + A256
             outputArea.value = outputArea.value + "\n" + output
             console.log(linesDone + "/" + arrayString.length)
-            linesDone + 1
+            linesDone = linesDone + 1
         }
     }
 }
