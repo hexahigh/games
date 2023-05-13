@@ -11,7 +11,6 @@ function loadFiles() {
     loadMD5()
     load256()
     load1()
-    mergeToCsv()
 }
 
 function loadMD5() {
