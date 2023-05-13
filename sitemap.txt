@@ -7,6 +7,7 @@ https://boof.eu.org/sitemap.txt
 https://boof.eu.org/sitemap.xml
 https://boof.eu.org/style.css
 https://boof.eu.org/Games/
+https://boof.eu.org/Games/index.js
 https://boof.eu.org/Software/
 https://boof.eu.org/tools/
 https://boof.eu.org/Games/2048/
@@ -58,6 +59,8 @@ https://boof.eu.org/Games/Flappy Bird/humans.txt
 https://boof.eu.org/Games/Flappy Bird/index.css
 https://boof.eu.org/Games/Flappy Bird/package.json
 https://boof.eu.org/Games/Flash/
+https://boof.eu.org/Games/Flash/index.js
+https://boof.eu.org/Games/Flash/template.html
 https://boof.eu.org/Games/Generic Square/
 https://boof.eu.org/Games/Generic Square/script.js
 https://boof.eu.org/Games/Getting Over It Scratch Edition/
@@ -122,6 +125,11 @@ https://boof.eu.org/Games/Zombie Apocalypse/script.js
 https://boof.eu.org/Games/full sphere path tracer/
 https://boof.eu.org/Games/full sphere path tracer/script.js
 https://boof.eu.org/Games/move-cube/
+https://boof.eu.org/Games/sm64/
+https://boof.eu.org/Games/sm64/README.md
+https://boof.eu.org/Games/sm64/credits.txt
+https://boof.eu.org/Games/sm64/start.html
+https://boof.eu.org/Games/sm64/style.css
 https://boof.eu.org/Software/Calculator-inator/
 https://boof.eu.org/Software/Calculator-inator/favicon-ci.png
 https://boof.eu.org/Software/Calculator-inator/style.css
@@ -155,10 +163,14 @@ https://boof.eu.org/other/XYgu/vpnip.txt
 https://boof.eu.org/other/av-hashes/
 https://boof.eu.org/other/cantaloupe/
 https://boof.eu.org/other/cantaloupe/lol.html
+https://boof.eu.org/other/csv-merge/
+https://boof.eu.org/other/csv-merge/index.js
 https://boof.eu.org/other/lowband/
 https://boof.eu.org/other/lowband/videos.html
 https://boof.eu.org/other/lowband/vsauce.html
 https://boof.eu.org/other/nostalgia/
+https://boof.eu.org/other/urls to array/
+https://boof.eu.org/other/urls to array/index.js
 https://boof.eu.org/tools/Base64/
 https://boof.eu.org/tools/Base64/style.css
 https://boof.eu.org/tools/Btorrent/
@@ -822,6 +834,12 @@ https://boof.eu.org/Games/Flappy Bird/js/melonJS-min.js
 https://boof.eu.org/Games/Flash/Interactive buddy/
 https://boof.eu.org/Games/Flash/Interactive buddy/DAbuddy.swf
 https://boof.eu.org/Games/Flash/Interactive buddy/index2.html
+https://boof.eu.org/Games/Flash/bloxorz/
+https://boof.eu.org/Games/Flash/bloxorz/bloxorz.swf
+https://boof.eu.org/Games/Flash/line-rider/
+https://boof.eu.org/Games/Flash/line-rider/Line_Rider_2.swf
+https://boof.eu.org/Games/Flash/pvz/
+https://boof.eu.org/Games/Flash/pvz/pvz.swf
 https://boof.eu.org/Games/Generic Square/assets/0105056c7e555d98140ae8c564319063.svg
 https://boof.eu.org/Games/Generic Square/assets/022ba3cdf65e506b14e6ff9539205b3f.mp3
 https://boof.eu.org/Games/Generic Square/assets/02bbbd562562204bded02fa130047f7a.svg
@@ -4781,6 +4799,13 @@ https://boof.eu.org/Games/full sphere path tracer/assets/f82914d1597ba7e3eacfeaf
 https://boof.eu.org/Games/full sphere path tracer/assets/f9926810855683ea2a73b29aa6828a12.png
 https://boof.eu.org/Games/full sphere path tracer/assets/project.json
 https://boof.eu.org/Games/move-cube/js/draw.js
+https://boof.eu.org/Games/sm64/assets/bg.jpg
+https://boof.eu.org/Games/sm64/game/sm64.js
+https://boof.eu.org/Games/sm64/pages/controls.html
+https://boof.eu.org/Games/sm64/pages/faq.html
+https://boof.eu.org/Games/sm64/pages/guide.html
+https://boof.eu.org/Games/sm64/pages/mirrors.html
+https://boof.eu.org/Games/sm64/pages/mirrors.txt
 https://boof.eu.org/other/cantaloupe/images/idiot.png
 https://boof.eu.org/other/cantaloupe/images/speakerm.png
 https://boof.eu.org/other/cantaloupe/media/cantaloupe.mp3
@@ -4789,6 +4814,10 @@ https://boof.eu.org/other/cantaloupe/media/youare.mp3
 https://boof.eu.org/other/cantaloupe/media/youare.mp4
 https://boof.eu.org/other/cantaloupe/scripts/you.js
 https://boof.eu.org/other/cantaloupe/styles/styles.css
+https://boof.eu.org/other/csv-merge/files/random strings md5.txt
+https://boof.eu.org/other/csv-merge/files/random strings sha1.txt
+https://boof.eu.org/other/csv-merge/files/random strings sha256.txt
+https://boof.eu.org/other/csv-merge/files/random strings.txt
 https://boof.eu.org/other/nostalgia/old games/
 https://boof.eu.org/other/nostalgia/old movies and videos/
 https://boof.eu.org/other/school/presentation 1/
@@ -4886,6 +4915,14 @@ https://boof.eu.org/Games/Flappy Bird/js/entities/entities.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/gameover.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/play.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/title.js
+https://boof.eu.org/Games/Flash/bloons/1/
+https://boof.eu.org/Games/Flash/bloons/1/bloonstd.swf
+https://boof.eu.org/Games/Flash/bloons/2/
+https://boof.eu.org/Games/Flash/bloons/2/bloonstd2.swf
+https://boof.eu.org/Games/Flash/bloons/3/
+https://boof.eu.org/Games/Flash/bloons/3/bloonstd3.swf
+https://boof.eu.org/Games/Flash/bloons/4/
+https://boof.eu.org/Games/Flash/bloons/4/bloonstd4.swf
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-120.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-152.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-167.png
@@ -5066,6 +5103,9 @@ https://boof.eu.org/Games/SpaceInvaders/assets/img/player.png
 https://boof.eu.org/Games/SpaceInvaders/assets/img/starfield.png
 https://boof.eu.org/Games/SpaceInvaders/assets/javascript/built.js
 https://boof.eu.org/Games/SpaceInvaders/assets/javascript/main.js
+https://boof.eu.org/Games/sm64/assets/fonts/Mario64.svg
+https://boof.eu.org/Games/sm64/assets/fonts/font.ttf
+https://boof.eu.org/Games/sm64/assets/images/MrIncredible.jpg
 https://boof.eu.org/Games/Hextris/style/fa/css/font-awesome.css
 https://boof.eu.org/Games/Hextris/style/fa/css/font-awesome.min.css
 https://boof.eu.org/Games/Hextris/style/fa/fonts/FontAwesome.otf

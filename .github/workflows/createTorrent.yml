@@ -1,0 +1,34 @@
+name: Create torrent
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  sitemap_job:
+    runs-on: ubuntu-latest
+    name: Create torrent
+
+    steps:
+    - name: Checkout the repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 
+        
+    - name: Install npm and the required packages
+      run: |
+        sudo apt update
+        sudo apt install nodejs
+        sudo apt install npm
+        sudo npm install -g  create-torrent
+        
+    - name: Create the torrent
+      run: |
+        create-torrent ./ --urlList "https://boof.eu.org" --urlList "https://games-olive-delta.vercel.app" --urlList "https://games-hexahigh.vercel.app" --urlList "https://games-git-main-hexahigh.vercel.app" -o site.torrent
+    
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Github Action: Updated torrent file"
+        branch: ${{ github.ref }}
