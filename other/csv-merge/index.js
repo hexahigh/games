@@ -3,7 +3,7 @@ var arrayMD5 = "null"
 var array256 = "null"
 var array1 = "null"
 var output = "null"
-var linesDone = 1
+var linesDone = 10000
 const outputArea = document.getElementById("outputArea")
 
 function loadFiles() {
@@ -57,7 +57,7 @@ function mergeToCsv() {
     console.log("Lenght of array is " + arrayString.length)
     for (x in arrayString) {
         let length = arrayString.length
-        if(linesDone < 10000) {
+        if(linesDone < 30000) {
             Amd5 = arrayMD5[linesDone];
             Asha1 = array256[linesDone];
             Astring = arrayString[linesDone];
