@@ -4937,6 +4937,8 @@ https://boof.eu.org/Games/Flash/bloons/bloons2spring/
 https://boof.eu.org/Games/Flash/bloons/bloons2spring/bloons2spring.swf
 https://boof.eu.org/Games/Flash/bloons/bloons2xmas/
 https://boof.eu.org/Games/Flash/bloons/bloons2xmas/bloons2xmas.swf
+https://boof.eu.org/Games/Flash/bloons/hotairbloon/
+https://boof.eu.org/Games/Flash/bloons/hotairbloon/HotAirBloon.swf
 https://boof.eu.org/Games/Flash/bloons/insanity/
 https://boof.eu.org/Games/Flash/bloons/insanity/bloonsinsanity.swf
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-120.png
