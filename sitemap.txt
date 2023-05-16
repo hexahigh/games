@@ -4943,6 +4943,16 @@ https://boof.eu.org/Games/Flash/bloons/insanity/
 https://boof.eu.org/Games/Flash/bloons/insanity/bloonsinsanity.swf
 https://boof.eu.org/Games/Flash/bloons/junior/
 https://boof.eu.org/Games/Flash/bloons/junior/bloonsjunior.swf
+https://boof.eu.org/Games/Flash/bloons/pp1/
+https://boof.eu.org/Games/Flash/bloons/pp1/bloonspp1.swf
+https://boof.eu.org/Games/Flash/bloons/pp2/
+https://boof.eu.org/Games/Flash/bloons/pp2/bloonspp2.swf
+https://boof.eu.org/Games/Flash/bloons/pp3/
+https://boof.eu.org/Games/Flash/bloons/pp3/bloonspp3.swf
+https://boof.eu.org/Games/Flash/bloons/pp4/
+https://boof.eu.org/Games/Flash/bloons/pp4/bloonspp4.swf
+https://boof.eu.org/Games/Flash/bloons/pp5/
+https://boof.eu.org/Games/Flash/bloons/pp5/bloonspp5.swf
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-120.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-152.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-167.png
