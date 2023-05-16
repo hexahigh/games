@@ -4941,6 +4941,8 @@ https://boof.eu.org/Games/Flash/bloons/hotairbloon/
 https://boof.eu.org/Games/Flash/bloons/hotairbloon/HotAirBloon.swf
 https://boof.eu.org/Games/Flash/bloons/insanity/
 https://boof.eu.org/Games/Flash/bloons/insanity/bloonsinsanity.swf
+https://boof.eu.org/Games/Flash/bloons/junior/
+https://boof.eu.org/Games/Flash/bloons/junior/bloonsjunior.swf
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-120.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-152.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-167.png
