@@ -4927,6 +4927,8 @@ https://boof.eu.org/Games/Flash/bloons/3/
 https://boof.eu.org/Games/Flash/bloons/3/bloonstd3.swf
 https://boof.eu.org/Games/Flash/bloons/4/
 https://boof.eu.org/Games/Flash/bloons/4/bloonstd4.swf
+https://boof.eu.org/Games/Flash/bloons/5/
+https://boof.eu.org/Games/Flash/bloons/5/610995_btd5.swf
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-120.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-152.png
 https://boof.eu.org/Games/Hextris/images/icons/apple-touch-167.png
