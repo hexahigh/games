@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // success callback
+        var onSuccess = function (response) {
+            var errorDivs = document.getElementsByClassName("hcaptcha-error");
+            if (errorDivs.length) {
+                errorDivs[0].className = "";
+            }
+            var errorMsgs = document.getElementsByClassName("hcaptcha-error-message");
+            if (errorMsgs.length) {
+                errorMsgs[0].parentNode.removeChild(errorMsgs[0]);
+            }
+
+            var logEl = document.querySelector(".hcaptcha-success");
+            logEl.innerHTML = "Challenge Success!"
+        };
+
+        var onExpire = function (response) {
+            var logEl = document.querySelector(".hcaptcha-success");
+            logEl.innerHTML = "Token expired."
+        };
+    </script>
+</head>
+
+<body>
+    <div id="hcaptcha-demo" class="h-captcha" data-sitekey="5e26897c-123d-4c99-a78b-e590571fd95d"
+        data-callback="onSuccess" data-expired-callback="onExpire"></div>
+</body>
+
+</html>
