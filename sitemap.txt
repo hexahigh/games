@@ -839,6 +839,11 @@ https://boof.eu.org/Games/Flappy Bird/js/melonJS-min.js
 https://boof.eu.org/Games/Flash/Interactive buddy/
 https://boof.eu.org/Games/Flash/Interactive buddy/DAbuddy.swf
 https://boof.eu.org/Games/Flash/Interactive buddy/index2.html
+https://boof.eu.org/Games/Flash/PYracer/
+https://boof.eu.org/Games/Flash/PYracer/PYracer.swf
+https://boof.eu.org/Games/Flash/PYracer/PreGame.mp3
+https://boof.eu.org/Games/Flash/PYracer/common.txt
+https://boof.eu.org/Games/Flash/PYracer/info.txt
 https://boof.eu.org/Games/Flash/bloxorz/
 https://boof.eu.org/Games/Flash/bloxorz/bloxorz.swf
 https://boof.eu.org/Games/Flash/line-rider/
