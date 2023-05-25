@@ -165,6 +165,7 @@ https://boof.eu.org/other/cantaloupe/
 https://boof.eu.org/other/cantaloupe/lol.html
 https://boof.eu.org/other/csv-merge/
 https://boof.eu.org/other/csv-merge/index.js
+https://boof.eu.org/other/hcaptcha-test/
 https://boof.eu.org/other/herremann-recovery/
 https://boof.eu.org/other/herremann-recovery/favicon.png
 https://boof.eu.org/other/herremann-recovery/index.js
