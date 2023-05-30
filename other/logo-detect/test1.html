@@ -4,8 +4,9 @@
     <div>
         <input type="file" id="image-input" accept="image/*">
         <img id="preview"></img>
+        <img id="tomotowErSvart"></img>
         <button onclick="const img = document.getElementById('preview');
-        const blackAndWhiteImg = convertToBlackAndWhite(img);
+        const blackAndWhiteImg = convertToBlackAndWhite(img); document.getElementById('tomotowErSvart').src =blackAndWhiteImg;
         ">Black and white</button>
     </div>
     <script>
