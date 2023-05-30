@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var image = new Image();
+        image.src = "https://boof.eu.org/favicon.png";
+        image.onload = function () {
+            var newWidth = 48; // Set the desired width
+            var newHeight = 48; // Set the desired height
+
+            var canvas = document.createElement('canvas');
+            canvas.width = newWidth;
+            canvas.height = newHeight;
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(image, 0, 0, newWidth, newHeight);
+
+            ctx.fillStyle = 'gray';
+            ctx.fillRect(0, 0, newWidth, newHeight);
+            ctx.globalCompositeOperation = 'lighten';
+            ctx.filter = 'grayscale(100%)';
+            ctx.drawImage(image, 0, 0, newWidth, newHeight);
+
+            ctx.drawImage(canvas, 0, 0, newWidth, newHeight);
+            var dataURL = canvas.toDataURL();
+            document.getElementById("image").src = dataURL;
+        }
+
+    </script>
+</head>
+<img id="image">
+<body>
+
+</body>
+
+</html>
