@@ -1,8 +1,12 @@
 <html>
+
 <body>
     <div>
         <input type="file" id="image-input" accept="image/*">
         <img id="preview"></img>
+        <button onclick="const img = document.getElementById('preview');
+        const blackAndWhiteImg = convertToBlackAndWhite(img);
+        ">Black and white</button>
     </div>
     <script>
         let imgInput = document.getElementById('image-input');
@@ -25,5 +29,27 @@
             }
         });
     </script>
+    <script>
+        function convertToBlackAndWhite(img) {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            const imgData = ctx.getImageData(0, 0, img.width, img.height);
+
+            for (let i = 0; i < imgData.data.length; i += 4) {
+                let count = imgData.data[i] + imgData.data[i + 1] + imgData.data[i + 2];
+                let colour = 0;
+                if (count > 383) colour = 255;
+                imgData.data[i] = colour;
+                imgData.data[i + 1] = colour;
+                imgData.data[i + 2] = colour;
+                imgData.data[i + 3] = 255;
+            }
+
+            ctx.putImageData(imgData, 0, 0);
+            return canvas.toDataURL('image/png');
+        }
+
+    </script>
 </body>
+
 </html>
