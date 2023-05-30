@@ -3,7 +3,7 @@
 /* IMPORTANT:
  * change this to the main url of where you host the application, otherwise, every entry will be marked as a cheater
 */
-$hostdomain = 'boof.eu.org/Pacman';
+$hostdomain = 'boof.eu.org/Games/Pacman';
 
 if (isset($_POST['action'])) {
 	switch ($_POST['action']) {

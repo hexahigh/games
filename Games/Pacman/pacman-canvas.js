@@ -48,7 +48,7 @@ function geronimo() {
 		$.ajax({
 			datatype: "json",
 			type: "GET",
-			url: "data/db-handler.php",
+			url: "https://boofcdn.rf.gd/pacman/db-handler.php",
 			data: {
 				timestamp: date,
 				action: "get"
@@ -65,7 +65,7 @@ function geronimo() {
 
 		$.ajax({
 			type: 'POST',
-			url: 'data/db-handler.php',
+			url: 'https://boofcdn.rf.gd/pacman/db-handler.php',
 			data: {
 				action: 'add',
 				name: n,
