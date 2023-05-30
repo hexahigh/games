@@ -171,6 +171,7 @@ https://boof.eu.org/other/herremann-recovery/style.css
 https://boof.eu.org/other/logo-detect/
 https://boof.eu.org/other/logo-detect/index.js
 https://boof.eu.org/other/logo-detect/test1.html
+https://boof.eu.org/other/logo-detect/test2.html
 https://boof.eu.org/other/lowband/
 https://boof.eu.org/other/lowband/videos.html
 https://boof.eu.org/other/lowband/vsauce.html
