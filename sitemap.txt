@@ -953,55 +953,6 @@ https://boof.eu.org/Games/Dino game/assets/t-rex-runner-bot.gif
 https://boof.eu.org/Games/Flappy Bird/build/clumsy-min.js
 https://boof.eu.org/Games/Flappy Bird/js/game.js
 https://boof.eu.org/Games/Flappy Bird/js/melonJS-min.js
-https://boof.eu.org/Games/Flash/#DUMP/4DA984BD19B9F369D98578FC583B2EAA.swf
-https://boof.eu.org/Games/Flash/#DUMP/514128__tetrisdgame_final202c.swf
-https://boof.eu.org/Games/Flash/#DUMP/610995_btd5.swf
-https://boof.eu.org/Games/Flash/#DUMP/AmfCaller.swf
-https://boof.eu.org/Games/Flash/#DUMP/AmfphpFlashClient.swf
-https://boof.eu.org/Games/Flash/#DUMP/DAbuddy.swf
-https://boof.eu.org/Games/Flash/#DUMP/HotAirBloon.swf
-https://boof.eu.org/Games/Flash/#DUMP/Katten10.swf
-https://boof.eu.org/Games/Flash/#DUMP/Line_Rider_2.swf
-https://boof.eu.org/Games/Flash/#DUMP/LinkLivePreview.swf
-https://boof.eu.org/Games/Flash/#DUMP/Main.swf
-https://boof.eu.org/Games/Flash/#DUMP/PYracer.swf
-https://boof.eu.org/Games/Flash/#DUMP/SocketPool.swf
-https://boof.eu.org/Games/Flash/#DUMP/Super Smash Flash.swf
-https://boof.eu.org/Games/Flash/#DUMP/Test Layout.swf
-https://boof.eu.org/Games/Flash/#DUMP/adam and eve 3.swf
-https://boof.eu.org/Games/Flash/#DUMP/adam and eve.swf
-https://boof.eu.org/Games/Flash/#DUMP/adam-and-eve-2.swf
-https://boof.eu.org/Games/Flash/#DUMP/adam-and-eve-2[1].swf
-https://boof.eu.org/Games/Flash/#DUMP/adamandeve[1].swf
-https://boof.eu.org/Games/Flash/#DUMP/bloons.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloons2.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloons2spring.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloons2xmas.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonsinsanity.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonsjunior.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonspp1.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonspp2.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonspp3.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonspp4.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonspp5.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonstd.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonstd2.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonstd3.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloonstd4.swf
-https://boof.eu.org/Games/Flash/#DUMP/bloxorz.swf
-https://boof.eu.org/Games/Flash/#DUMP/btd5-dat.swf
-https://boof.eu.org/Games/Flash/#DUMP/core.swf
-https://boof.eu.org/Games/Flash/#DUMP/core[1].swf
-https://boof.eu.org/Games/Flash/#DUMP/defendTheBase.swf
-https://boof.eu.org/Games/Flash/#DUMP/expressInstall.swf
-https://boof.eu.org/Games/Flash/#DUMP/gazlr1qxZs2fz6w.swf
-https://boof.eu.org/Games/Flash/#DUMP/gazlr1qxZs2fz6w[1].swf
-https://boof.eu.org/Games/Flash/#DUMP/library.swf
-https://boof.eu.org/Games/Flash/#DUMP/playerProductInstall.swf
-https://boof.eu.org/Games/Flash/#DUMP/pvz.swf
-https://boof.eu.org/Games/Flash/#DUMP/qwop.swf
-https://boof.eu.org/Games/Flash/#DUMP/services.swf
-https://boof.eu.org/Games/Flash/#DUMP/xssproject.swf
 https://boof.eu.org/Games/Flash/Interactive buddy/
 https://boof.eu.org/Games/Flash/Interactive buddy/DAbuddy.swf
 https://boof.eu.org/Games/Flash/Interactive buddy/index2.html
@@ -5095,7 +5046,6 @@ https://boof.eu.org/Games/Flappy Bird/js/entities/entities.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/gameover.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/play.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/title.js
-https://boof.eu.org/Games/Flash/#DUMP/source/abobosbigadventure.swf
 https://boof.eu.org/Games/Flash/ae/1/
 https://boof.eu.org/Games/Flash/ae/2/
 https://boof.eu.org/Games/Flash/ae/2/adam-and-eve-2.swf
