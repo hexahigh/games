@@ -961,12 +961,16 @@ https://boof.eu.org/Games/Flash/PYracer/PYracer.swf
 https://boof.eu.org/Games/Flash/PYracer/PreGame.mp3
 https://boof.eu.org/Games/Flash/PYracer/common.txt
 https://boof.eu.org/Games/Flash/PYracer/info.txt
+https://boof.eu.org/Games/Flash/QWOP/
+https://boof.eu.org/Games/Flash/QWOP/qwop.swf
 https://boof.eu.org/Games/Flash/bloxorz/
 https://boof.eu.org/Games/Flash/bloxorz/bloxorz.swf
 https://boof.eu.org/Games/Flash/line-rider/
 https://boof.eu.org/Games/Flash/line-rider/Line_Rider_2.swf
 https://boof.eu.org/Games/Flash/pvz/
 https://boof.eu.org/Games/Flash/pvz/pvz.swf
+https://boof.eu.org/Games/Flash/ssf/
+https://boof.eu.org/Games/Flash/ssf/Super Smash Flash.swf
 https://boof.eu.org/Games/Generic Square/assets/0105056c7e555d98140ae8c564319063.svg
 https://boof.eu.org/Games/Generic Square/assets/022ba3cdf65e506b14e6ff9539205b3f.mp3
 https://boof.eu.org/Games/Generic Square/assets/02bbbd562562204bded02fa130047f7a.svg
@@ -5042,6 +5046,11 @@ https://boof.eu.org/Games/Flappy Bird/js/entities/entities.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/gameover.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/play.js
 https://boof.eu.org/Games/Flappy Bird/js/screens/title.js
+https://boof.eu.org/Games/Flash/ae/1/
+https://boof.eu.org/Games/Flash/ae/2/
+https://boof.eu.org/Games/Flash/ae/2/adam-and-eve-2.swf
+https://boof.eu.org/Games/Flash/ae/3/
+https://boof.eu.org/Games/Flash/ae/3/adam and eve 3.swf
 https://boof.eu.org/Games/Flash/bloons-td/1/
 https://boof.eu.org/Games/Flash/bloons-td/1/bloonstd.swf
 https://boof.eu.org/Games/Flash/bloons-td/2/
