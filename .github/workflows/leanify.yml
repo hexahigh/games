@@ -1,0 +1,31 @@
+name: "Leanify"
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "main" ]
+  schedule:
+    - cron: '44 8 * * 5'
+    
+jobs:
+    build:
+  
+      name: Compressing repo with leanify
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout the repo
+          uses: actions/checkout@v2
+          with:
+            fetch-depth: 0 
+        
+        - name: Downloading Leanify
+          run: |
+           wget https://hexahigh.github.io/cdn/Software/leanify
+           chmod +x leanify
+           
+        - name: Running Leanify
+          run: |
+           ./leanify -d 1
