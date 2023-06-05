@@ -28,4 +28,12 @@ jobs:
            
         - name: Running Leanify
           run: |
-           ./leanify -d 1
+           ./leanify -d 1 --keep-exif .
+           
+        - name: Cleanup
+          run: |
+           rm leanify
+           
+        - name: Create Pull Request
+          uses: peter-evans/create-pull-request@v5.0.1
+
