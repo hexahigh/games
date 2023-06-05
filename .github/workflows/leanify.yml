@@ -28,7 +28,7 @@ jobs:
            
         - name: Running Leanify
           run: |
-           ./leanify -d 1 --keep-exif .
+           ./leanify -d 1 --keep-exif ./
            
         - name: Cleanup
           run: |
