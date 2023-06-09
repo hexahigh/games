@@ -5,6 +5,11 @@ var sources = [
         'mp4': 'https://data.boof.eu.org/Karius og Baktus h264.mp4',
         'webm':'https://data.boof.eu.org/Karius og Baktus.webm',
         'ogg':'https://data.boof.eu.org/Karius og Baktus.ogv'
+    }, 
+    {
+        'mp4': 'https://archive.org/download/karius-og-baktus/Karius%20og%20Baktus.mp4',
+        'webm':'https://archive.org/download/karius-og-baktus/Karius%20og%20Baktus.webm',
+        'ogg':'https://archive.org/download/karius-og-baktus/Karius%20og%20Baktus.ogv' 
     }
 ];
 
@@ -25,6 +30,10 @@ document.getElementById('cdn').addEventListener('click', function() {
     switchVideo(0);
 }, false);
 
-document.getElementById('catbox').addEventListener('click', function() {
+document.getElementById('archive').addEventListener('click', function() {
     switchVideo(1);
+}, false);
+
+document.getElementById('catbox').addEventListener('click', function() {
+    switchVideo(2);
 }, false);
