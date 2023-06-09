@@ -10,6 +10,11 @@ var sources = [
         'mp4': 'https://archive.org/download/karius-og-baktus/Karius%20og%20Baktus.mp4',
         'webm':'https://archive.org/download/karius-og-baktus/Karius%20og%20Baktus.webm',
         'ogg':'https://archive.org/download/karius-og-baktus/Karius%20og%20Baktus.ogv' 
+    },
+    {
+        'mp4': 'https://files.catbox.moe/124r0x.mp4',
+        'webm': 'https://files.catbox.moe/faa3uk.webm',
+        'ogg': 'https://files.catbox.moe/vwgn0o.ogv'
     }
 ];
 
