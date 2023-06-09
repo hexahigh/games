@@ -5268,6 +5268,8 @@ https://boof.eu.org/Games/SpaceInvaders/assets/javascript/main.js
 https://boof.eu.org/Games/sm64/assets/fonts/Mario64.svg
 https://boof.eu.org/Games/sm64/assets/fonts/font.ttf
 https://boof.eu.org/Games/sm64/assets/images/MrIncredible.jpg
+https://boof.eu.org/other/nostalgia/old movies and videos/karius/
+https://boof.eu.org/other/nostalgia/old movies and videos/karius/index.js
 https://boof.eu.org/Games/Hextris/style/fa/css/font-awesome.css
 https://boof.eu.org/Games/Hextris/style/fa/css/font-awesome.min.css
 https://boof.eu.org/Games/Hextris/style/fa/fonts/FontAwesome.otf
