@@ -1,6 +1,7 @@
 https://boof.eu.org/
 https://boof.eu.org/404.css
 https://boof.eu.org/404.html
+https://boof.eu.org/ads.txt
 https://boof.eu.org/favicon.png
 https://boof.eu.org/index.js
 https://boof.eu.org/sitemap.txt
