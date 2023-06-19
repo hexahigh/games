@@ -10,6 +10,7 @@ https://boof.eu.org/style.css
 https://boof.eu.org/Games/
 https://boof.eu.org/Games/index.js
 https://boof.eu.org/Software/
+https://boof.eu.org/rss/torrent.xml
 https://boof.eu.org/tools/
 https://boof.eu.org/Games/2048/
 https://boof.eu.org/Games/2048/CONTRIBUTING.md
