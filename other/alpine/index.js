@@ -4,7 +4,7 @@ window.onload = function()
 {
     var emulator = window.emulator = new V86Starter({
         wasm_path: "v86.wasm",
-        memory_size: 300 * 1024 * 1024,
+        memory_size: 304 * 1024 * 1024,
         vga_memory_size: 16 * 1024 * 1024,
         screen_container: document.getElementById("screen_container"),
         bios: {
