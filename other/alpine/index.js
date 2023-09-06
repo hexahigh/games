@@ -14,7 +14,7 @@ window.onload = function()
             url: "https://cdn-mu-ten.vercel.app/v86/vgabios.bin",
         },
         cdrom: {
-            url: "https://dl-cdn.alpinelinux.org/alpine/v3.18/releases/x86/alpine-standard-3.18.3-x86.iso",
+            url: "https://data.boof.eu.org/alpine-standard-3.18.3-x86.iso",
         },
         autostart: true,
     });
