@@ -161,6 +161,10 @@ https://boof.eu.org/other/ARCHIVE/windows2000.tar.gz
 https://boof.eu.org/other/ARCHIVE/zoneswifi.tar.gz
 https://boof.eu.org/other/XYgu/
 https://boof.eu.org/other/XYgu/vpnip.txt
+https://boof.eu.org/other/alpine/
+https://boof.eu.org/other/alpine/index.js
+https://boof.eu.org/other/alpine/libv86.js
+https://boof.eu.org/other/alpine/starter.js
 https://boof.eu.org/other/av-hashes/
 https://boof.eu.org/other/cantaloupe/
 https://boof.eu.org/other/cantaloupe/lol.html
