@@ -10,7 +10,7 @@ function preprocessAudio(filename) {
 
   // Generate a Mel-scaled spectrogram
   const spectrogram = tf.tidy(() => {
-    const audioTensor = tf.browser.fromAudio(audio);
+    const audioTensor = tf.browser.Audio(audio);
     const sampleRate = audioTensor.sampleRate();
     const melSpectrogram = tf.signal.melSpectrogram(audioTensor, {
       sampleRate: sampleRate,
