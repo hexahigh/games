@@ -183,6 +183,9 @@ https://boof.eu.org/other/lowband/
 https://boof.eu.org/other/lowband/videos.html
 https://boof.eu.org/other/lowband/vsauce.html
 https://boof.eu.org/other/nostalgia/
+https://boof.eu.org/other/ow-map/
+https://boof.eu.org/other/ow-map/index.css
+https://boof.eu.org/other/ow-map/index.js
 https://boof.eu.org/other/urls to array/
 https://boof.eu.org/other/urls to array/index.js
 https://boof.eu.org/tools/Base64/
@@ -4958,6 +4961,18 @@ https://boof.eu.org/other/csv-merge/files/random strings sha256.txt
 https://boof.eu.org/other/csv-merge/files/random strings.txt
 https://boof.eu.org/other/nostalgia/old games/
 https://boof.eu.org/other/nostalgia/old movies and videos/
+https://boof.eu.org/other/ow-map/images/ash.webp
+https://boof.eu.org/other/ow-map/images/attlerock.webp
+https://boof.eu.org/other/ow-map/images/brittle.webp
+https://boof.eu.org/other/ow-map/images/dark.webp
+https://boof.eu.org/other/ow-map/images/ember.webp
+https://boof.eu.org/other/ow-map/images/eye.webp
+https://boof.eu.org/other/ow-map/images/giant.webp
+https://boof.eu.org/other/ow-map/images/inter.webp
+https://boof.eu.org/other/ow-map/images/station.webp
+https://boof.eu.org/other/ow-map/images/sun.webp
+https://boof.eu.org/other/ow-map/images/timber.webp
+https://boof.eu.org/other/ow-map/images/white.webp
 https://boof.eu.org/other/school/presentation 1/
 https://boof.eu.org/other/school/presentation 1/style.css
 https://boof.eu.org/other/tensor/test1/
