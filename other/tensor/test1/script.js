@@ -1,48 +1,63 @@
-    // more documentation available at
-    // https://github.com/tensorflow/tfjs-models/tree/master/speech-commands
+// Load the TensorFlow.js model
+async function loadModel() {
+  const model = await tf.loadLayersModel("model/model.json");
+  return model;
+}
 
-    // the link to your model provided by Teachable Machine export panel
-    const URL = "./model/";
+function preprocessAudio(filename) {
+  // Load audio file
+  const audio = new Audio(filename);
 
-    async function createModel() {
-        const checkpointURL = URL + "model.json"; // model topology
+  // Generate a Mel-scaled spectrogram
+  const spectrogram = tf.tidy(() => {
+    const audioTensor = tf.browser.fromAudio(audio);
+    const sampleRate = audioTensor.sampleRate();
+    const melSpectrogram = tf.signal.melSpectrogram(audioTensor, {
+      sampleRate: sampleRate,
+      hopLength: 512,
+      nMels: 128,
+      fMin: 0,
+      fMax: 8000
+    });
+    const logMelSpectrogram = tf.math.log(melSpectrogram.add(1e-6));
+    const normalizedSpectrogram = logMelSpectrogram.div(tf.max(logMelSpectrogram));
+    return normalizedSpectrogram;
+  });
 
-        const recognizer = speechCommands.create(
-            "BROWSER_FFT", // fourier transform type, not useful to change
-            undefined, // speech commands vocabulary feature, not useful for your models
-            checkpointURL);
+  return spectrogram;
+}
 
-        // check that model and metadata are loaded via HTTPS requests.
-        await recognizer.ensureModelLoaded();
 
-        return recognizer;
-    }
+// Classify the audio using the loaded model
+async function classifyAudio(model, audioData) {
+  const preprocessedData = preprocessAudio(audioData);
+  const audioTensor = tf.tensor(preprocessedData);
+  const predictions = model.predict(audioTensor);
+  const predictedClass = predictions.argMax().dataSync()[0];
+  return predictedClass;
+}
 
-    async function init() {
-        const recognizer = await createModel();
-        const classLabels = recognizer.wordLabels(); // get class labels
-        const labelContainer = document.getElementById("label-container");
-        for (let i = 0; i < classLabels.length; i++) {
-            labelContainer.appendChild(document.createElement("div"));
-        }
+// Handle form submission
+document.querySelector("form").addEventListener("submit", async function(event) {
+  event.preventDefault();
+  const fileInput = document.getElementById("audioFile");
+  const file = fileInput.files[0];
+  const fileReader = new FileReader();
 
-        // listen() takes two arguments:
-        // 1. A callback function that is invoked anytime a word is recognized.
-        // 2. A configuration object with adjustable fields
-        recognizer.listen(result => {
-            const scores = result.scores; // probability of prediction for each class
-            // render the probability scores per class
-            for (let i = 0; i < classLabels.length; i++) {
-                const classPrediction = classLabels[i] + ": " + result.scores[i].toFixed(2);
-                labelContainer.childNodes[i].innerHTML = classPrediction;
-            }
-        }, {
-            includeSpectrogram: true, // in case listen should return result.spectrogram
-            probabilityThreshold: 0.75,
-            invokeCallbackOnNoiseAndUnknown: true,
-            overlapFactor: 0.50 // probably want between 0.5 and 0.75. More info in README
-        });
+  fileReader.onload = async function(event) {
+    const audioData = event.target.result;
 
-        // Stop the recognition in 5 seconds.
-        // setTimeout(() => recognizer.stopListening(), 5000);
-    }
+    // Load the model
+    const model = await loadModel();
+
+    // Classify the audio
+    const classificationResult = await classifyAudio(model, audioData);
+
+    // Display the classification result
+    const resultSection = document.getElementById("result");
+    resultSection.textContent = `Class: ${classificationResult}`;
+  };
+
+  // Read the uploaded audio file
+  fileReader.readAsArrayBuffer(file);
+});
