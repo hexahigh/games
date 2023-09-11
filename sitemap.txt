@@ -161,6 +161,10 @@ https://boof.eu.org/other/ARCHIVE/windows2000.tar.gz
 https://boof.eu.org/other/ARCHIVE/zoneswifi.tar.gz
 https://boof.eu.org/other/XYgu/
 https://boof.eu.org/other/XYgu/vpnip.txt
+https://boof.eu.org/other/alpine/
+https://boof.eu.org/other/alpine/index.js
+https://boof.eu.org/other/alpine/libv86.js
+https://boof.eu.org/other/alpine/starter.js
 https://boof.eu.org/other/av-hashes/
 https://boof.eu.org/other/cantaloupe/
 https://boof.eu.org/other/cantaloupe/lol.html
@@ -4956,6 +4960,8 @@ https://boof.eu.org/other/nostalgia/old games/
 https://boof.eu.org/other/nostalgia/old movies and videos/
 https://boof.eu.org/other/school/presentation 1/
 https://boof.eu.org/other/school/presentation 1/style.css
+https://boof.eu.org/other/tensor/test1/
+https://boof.eu.org/other/tensor/test1/script.js
 https://boof.eu.org/tools/Btorrent/views/download.html
 https://boof.eu.org/tools/Btorrent/views/full.html
 https://boof.eu.org/tools/Btorrent/views/view.html
@@ -5274,6 +5280,13 @@ https://boof.eu.org/Games/sm64/assets/images/MrIncredible.jpg
 https://boof.eu.org/other/nostalgia/old movies and videos/karius/
 https://boof.eu.org/other/nostalgia/old movies and videos/karius/index.js
 https://boof.eu.org/other/nostalgia/old movies and videos/karius/torrent.js
+https://boof.eu.org/other/tensor/test1/model/group1-shard1of6.bin
+https://boof.eu.org/other/tensor/test1/model/group1-shard2of6.bin
+https://boof.eu.org/other/tensor/test1/model/group1-shard3of6.bin
+https://boof.eu.org/other/tensor/test1/model/group1-shard4of6.bin
+https://boof.eu.org/other/tensor/test1/model/group1-shard5of6.bin
+https://boof.eu.org/other/tensor/test1/model/group1-shard6of6.bin
+https://boof.eu.org/other/tensor/test1/model/model.json
 https://boof.eu.org/Games/Hextris/style/fa/css/font-awesome.css
 https://boof.eu.org/Games/Hextris/style/fa/css/font-awesome.min.css
 https://boof.eu.org/Games/Hextris/style/fa/fonts/FontAwesome.otf
