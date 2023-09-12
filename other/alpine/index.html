@@ -9,8 +9,8 @@ window.onload = function()
 {
     var emulator = new V86Starter({
         wasm_path: "v86.wasm",
-        memory_size: 304 * 1024 * 1024,
-        vga_memory_size: 16 * 1024 * 1024,
+        memory_size: 512 * 1024 * 1024,
+        vga_memory_size: 32 * 1024 * 1024,
         screen_container: document.getElementById("screen_container"),
         bios: {
             url: "https://cdn-mu-ten.vercel.app/v86/seabios.bin",
@@ -20,7 +20,6 @@ window.onload = function()
         },
         cdrom: {
             url: "https://data.boof.eu.org/alpine-standard-3.18.3-x86.iso",
-            async: true,
         },
         autostart: true,
     });
