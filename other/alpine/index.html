@@ -1,14 +1,14 @@
 <!doctype html>
 <title>Save and restore</title>
 
-<script src="../build/libv86.js"></script>
+<script src="libv86.js"></script>
 <script>
 "use strict";
 
 window.onload = function()
 {
     var emulator = new V86Starter({
-        wasm_path: "../build/v86.wasm",
+        wasm_path: "v86.wasm",
         memory_size: 304 * 1024 * 1024,
         vga_memory_size: 16 * 1024 * 1024,
         screen_container: document.getElementById("screen_container"),
