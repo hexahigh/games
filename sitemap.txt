@@ -979,6 +979,8 @@ https://boof.eu.org/Games/Flash/line-rider/
 https://boof.eu.org/Games/Flash/line-rider/Line_Rider_2.swf
 https://boof.eu.org/Games/Flash/pvz/
 https://boof.eu.org/Games/Flash/pvz/pvz.swf
+https://boof.eu.org/Games/Flash/samorost1/
+https://boof.eu.org/Games/Flash/samorost1/samorost-1.swf
 https://boof.eu.org/Games/Flash/ssf/
 https://boof.eu.org/Games/Flash/ssf/Super Smash Flash.swf
 https://boof.eu.org/Games/Generic Square/assets/0105056c7e555d98140ae8c564319063.svg
